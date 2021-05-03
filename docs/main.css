@@ -31,6 +31,14 @@ body {
     justify-content: flex-end;
 }
 
+.alert {
+  padding: 15px;
+  margin-top: 0px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  margin-bottom: 0px;
+}
+
 .header {
     background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2017-02/15/7/campaign_images/buzzfeed-prod-fastlane-03/people-are-going-nuts-over-this-ugly-cat-after-he-2-16236-1487161410-0_dblbig.jpg');
     background-size: cover;
@@ -83,6 +91,7 @@ body {
     margin: 4em auto;
     padding: 1em;
     position: relative;
+    background:#000000;
 }
 
 .feature-title {
@@ -90,7 +99,24 @@ body {
     font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 20px;
+    margin-top: 10px;
     text-transform: uppercase;
+    text-align: center;
+}
+
+
+.feature-description {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-border {
+    border:1px solid #CA33FF;
+    margin-bottom: 40px;
+
 }
 
 .features img {
