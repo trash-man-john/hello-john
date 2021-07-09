@@ -1,0 +1,191 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #78DEC7;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+
+.top-container {
+  background-color: #78DEC7;
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.real {
+  text-decoration: underline;
+}
+
+
+.navbar {
+    background:#CA33FF;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.alert {
+  padding: 15px;
+  margin-top: 0px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  margin-bottom: 0px;
+}
+
+.header {
+    background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2017-02/15/7/campaign_images/buzzfeed-prod-fastlane-03/people-are-going-nuts-over-this-ugly-cat-after-he-2-16236-1487161410-0_dblbig.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #CA33FF;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border:1px solid #FF0000;
+    background:#FF0000;
+    border-radius: 0;
+    color:#fff;
+}
+
+.description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#FF0000;
+}
+
+
+.cat {
+  height: 50%;
+  width: 50%;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    background:#000000;
+}
+
+.feature-title {
+    color: #FF0000;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.feature-description {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-border {
+    border:1px solid #CA33FF;
+    margin-bottom: 40px;
+
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+.gay-text {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+
+}
