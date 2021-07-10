@@ -20,7 +20,9 @@ body {
 }
 
 .nav-link {
-    margin-right: 1em !important;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
 }
 
 .nav-link:hover {
@@ -30,6 +32,13 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
+
+.header-cta {
+  background-color: red;
+  border-radius: 3rem;
+  margin-left: 50px;
+}
+
 
 .alert {
   padding: 15px;
