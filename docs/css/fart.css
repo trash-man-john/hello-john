@@ -39,7 +39,7 @@ h1 {
 }
 
 .nav-link:hover {
-    color: #000;
+    color: red;
 }
 
 .navbar-collapse {
@@ -157,6 +157,12 @@ h1 {
   from {
     margin-left: 100%;
     width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
   }
 
   to {

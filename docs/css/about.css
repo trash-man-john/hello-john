@@ -24,7 +24,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #000;
+    color: red;
 }
 
 .navbar-collapse {
@@ -136,15 +136,15 @@ body {
         transform: none;
         text-align: center;
     }
- 
+
     .description h1 {
         font-size: 2em;
     }
- 
+
     .description p {
         font-size: 1.2rem;
     }
- 
+
     .features {
         margin: 0;
     }
