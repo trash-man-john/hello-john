@@ -66,6 +66,9 @@ body {
     background: rgba(0, 0, 0, 0.6);
 }
 
+#Twitch {
+  scroll-margin-top: 6rem;
+}
 
 .description {
     left: 50%;
