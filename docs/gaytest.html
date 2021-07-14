@@ -63,21 +63,32 @@
 
   <div class="top-container">
     <h1>The Gay Test</h1>
-    <p>My <span class="real">name</span> is Jeff</p>
-    <img class="cat" src="media/catvibe.gif" alt="cat-image">
-  </div> <br>
+    <p>The test to see if you're gay!</p>
+    <div id="cat">
+      <img src="media/catvibe.gif" alt="cat-image">
+    </div>
+    <div id="pause">
+      <h1>You're gay!</h1>
+      <button class="btn btn-primary" style="margin-top: 10px;" onclick="showResults()">Awesome, thanks!</button>
+    </div>
+  </div>
+  <div id="gay-section" style="text-align: center">
+    <p>If this button plays music it means you're gay</p>
 
-  <div class="gay-text" style="text-align: center">
-    <p>If the button plays music it means you're gay</p>
+    <audio id="sound1" src="media/penismusic.mp3" preload="auto"></audio>
+    <div class="text-center">
+      <button class="btn btn-primary btn-lg" style="margin-bottom: 10px" onclick="document.getElementById('sound1').play();pauseSong();showCat();hideSection();">Take Test</button>
+    </div>
 
   </div>
 
-<br>
 
-<audio id="sound1" src="media/penismusic.mp3" preload="auto"></audio>
-<div class="text-center">
-  <button class="btn btn-primary" style="margin-bottom: 10px" onclick="document.getElementById('sound1').play();">Gay Test</button>
-</div>
+
+  <div id="gay-results">
+    <h3>Congratulations!</h3>
+    <p>Proud of you! You like Huey Lewis and The News? Their early work was a little too new wave for my tastes, but when Sports came out in '83, I think they really came into their own, commercially and artistically. The whole album has a clear, crisp sound, and a new sheen of consummate professionalism that really gives the songs a big boost. He's been compared to Elvis Costello, but I think Huey has a far more bitter, cynical sense of humor. In '87, Huey released this☝, Fore, their most accomplished album. I think their undisputed masterpiece is "Hip to be Square", a song so catchy, most people probably don't listen to the lyrics. But they should, because it's not just about the pleasures of conformity, and the importance of trends, it's also a personal statement about the band itself.</p>
+
+  </div>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
