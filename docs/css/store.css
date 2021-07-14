@@ -14,6 +14,7 @@ body {
 
 .navbar {
     background:#CA33FF;
+    border-bottom: solid 2px red;
 }
 
 .nav-link,
@@ -70,9 +71,6 @@ body {
     background: rgba(0, 0, 0, 0.6); */
 }
 
-.hero-section {
-  /* color: #FB7AFC; */
-}
 
 .description {
     left: 50%;

@@ -11,6 +11,7 @@ body {
 
 .navbar {
     background:#CA33FF;
+    border-bottom: solid 2px red;
 }
 
 .nav-link,
@@ -31,6 +32,11 @@ body {
 
 .navbar-collapse {
     justify-content: flex-end;
+}
+
+
+.nomics-ticker-widget {
+  margin-top: 4rem;
 }
 
 .header-cta {

@@ -26,6 +26,7 @@ h1 {
 
 .navbar {
     background:#CA33FF;
+    border-bottom: solid 2px red;
 }
 
 .nav-link,
