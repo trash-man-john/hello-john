@@ -104,29 +104,22 @@ body {
     color:#FF0000;
 }
 
-.carousel {
+
+
+#topcarousel {
   text-align: center;
 }
 
-.carousel-inner {
-  background-color: #FBC7F7;
-  position: relative;
+#bottomcarousel {
+  text-align: center;
 }
 
 .carousel-item {
-  width: 50%;
-  margin: 30px 30px;
-  justify-content: center;
-  text-align: center;
-  /* transition: transform 2s ease-in-out; */
+  padding: 7% 15%;
 }
 
 .carousel-item.active {
-  width: 50%;
-  margin: 30px 30px;
-  justify-content: center;
-  text-align: center;
-  /* transition: transform 2s ease-in-out; */
+  padding: 7% 15%;
 }
 
 
@@ -138,8 +131,7 @@ body {
 }
 
 
-.item-header {
-}
+
 
 .btn-primary {
   margin-top: 1rem;
