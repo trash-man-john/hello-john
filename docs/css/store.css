@@ -9,12 +9,24 @@ body {
     background-color: #78DEC7;
 }
 
+h3 {
+  color: black;
+  font-weight: bold;
+  margin-left: 1rem;
+  /* text-shadow:5px 5px 7px red; */
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+}
 
 /* Nav Bar */
 
 .navbar {
     background:#CA33FF;
-    border-bottom: solid 2px red;
+    /* border-bottom: solid 2px red; */
 }
 
 .nav-link,
@@ -55,21 +67,6 @@ body {
 /* HERO SECTION */
 /*
 
-.header {
-    background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2017-02/15/7/campaign_images/buzzfeed-prod-fastlane-03/people-are-going-nuts-over-this-ugly-cat-after-he-2-16236-1487161410-0_dblbig.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.6); */
-}
 
 
 .description {
@@ -105,13 +102,41 @@ body {
 }
 
 
+/* CAROUSELS */
+
+.top-carousel-header {
+  margin-top: 1rem;
+
+}
 
 #topcarousel {
   text-align: center;
+  padding: 0 7px;
+}
+
+#firstcarousel {
+  background-color: #D62AD0;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
+}
+
+.bottom-carousel-header {
+  margin-top: 1rem;
+
 }
 
 #bottomcarousel {
   text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#secondcarousel {
+  background-color: #FB7AFC;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
 }
 
 .carousel-item {
@@ -123,7 +148,7 @@ body {
 }
 
 
-.brian {
+.product-image {
   display: block;
   justify-content: center;
   width: 100%;
@@ -139,25 +164,6 @@ body {
 
 }
 
-/* .carousel-indicators {
-  padding-top: 10px;
-}
-
-.carousel-indicators.active {
-  padding-top: 10px;
-}
-
-.carousel-indicators ol {
-  margin-top: 10px;
-}
-
-.carousel-indicators li {
-  transition: opacity 2s ease;
-}
-
-.carousel-indicators.active li {
-  transition: opacity 2s ease;
-} */
 
 .features {
     margin: 4em auto;
