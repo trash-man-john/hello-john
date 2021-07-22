@@ -45,3 +45,9 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
 function enableWise () {
   document.getElementById("wiseButton").disabled = false;
 }
+
+
+// function showWiseMessage() {
+//   var w = document.getElementById("very-unwise");
+//   w.style.display = "block";
+// }
