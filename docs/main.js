@@ -31,13 +31,17 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
     x.style.display = "block";
   }
 
-function ballSex() {
+function wisePost() {
   var input = document.getElementById("formInput").value; {
-    if (input === "ham") {
-      alert("Sex");
+    if (input === "sex") {
+      alert("This content is wise. Approved for posting.");
     }
     else {
-      alert("Balls");
+      alert("Hmmm no, very unwise.");
     }
   }
+}
+
+function enableWise () {
+  document.getElementById("wiseButton").disabled = false;
 }

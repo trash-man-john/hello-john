@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #78DEC7;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #78DEC7;
+}
+
+.navbar {
+    background:#CA33FF;
+    border-bottom: solid 2px red;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+.top-container {
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #78DEC7;
+}
+
+.wisepost-field {
+  /* width: 50%; */
+}
+
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+@media (max-width: 575.98px) {
+
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+
+}
