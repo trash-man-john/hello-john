@@ -13,7 +13,6 @@ h3 {
   color: black;
   font-weight: bold;
   margin-left: 1rem;
-  /* text-shadow:5px 5px 7px red; */
 }
 
 h4 {
@@ -23,11 +22,10 @@ h4 {
   font-weight: bold;
 }
 
-/* Nav Bar */
+/* NAV BAR */
 
 .navbar {
     background:#CA33FF;
-    /* border-bottom: solid 2px red; */
 }
 
 .nav-link,
@@ -57,50 +55,15 @@ h4 {
 }
 
 
-.alert {
+/* .alert {
   padding: 15px;
   margin-top: 0px;
   border: 1px solid transparent;
   border-radius: 30px;
   margin-bottom: 0px;
-}
-
-/* HERO SECTION */
-/*
+} */
 
 
-
-.description {
-    left: 50%;
-    position: absolute;
-    top: 45%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-}
-
-.description h1 {
-    color: #CA33FF;
-    text-shadow: -3px 3px black;
-}
-
-.description p {
-    color: #fff;
-    font-size: 1.3rem;
-    line-height: 1.5;
-}
-
-.description button {
-    border:1px solid #FF0000;
-    background:#FF0000;
-    border-radius: 0;
-    color:#fff;
-}
-
-.description button:hover {
-    border:1px solid #fff;
-    background:#fff;
-    color:#FF0000;
-}
 
 
 /* CAROUSELS */
@@ -162,71 +125,5 @@ h4 {
 .btn-primary {
   margin-top: 1rem;
   text-align: center;
-
-}
-
-
-.features {
-    margin: 4em auto;
-    position: relative;
-    background:red;
-}
-
-.feature-title {
-    color: white;
-    font-size: 1.6rem;
-    font-weight: 700;
-    margin-top: 10px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-
-.feature-description {
-    color: #FFFFFF;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.feature-border {
-    border:10px solid #CA33FF;
-    margin-bottom: 30px;
-    border-radius: 10%;
-    box-shadow: -5px 5px black;
-    -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
-
-}
-
-.features img {
-    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    margin-bottom: 16px;
-}
-
-@media (max-width: 575.98px) {
-
-    .description {
-        left: 0;
-        padding: 0 15px;
-        position: absolute;
-        top: 10%;
-        transform: none;
-        text-align: center;
-    }
-
-    .description h1 {
-        font-size: 2em;
-    }
-
-    .description p {
-        font-size: 1.2rem;
-    }
-
-    .features {
-        margin: 0;
-    }
 
 }

@@ -30,3 +30,14 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
     var x = document.getElementById("gay-results");
     x.style.display = "block";
   }
+
+function ballSex() {
+  var input = document.getElementById("formInput").value; {
+    if (input === "ham") {
+      alert("Sex");
+    }
+    else {
+      alert("Balls");
+    }
+  }
+}

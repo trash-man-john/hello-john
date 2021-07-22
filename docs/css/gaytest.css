@@ -7,19 +7,13 @@ body {
 
 h1 {
   margin-top: 0;
-}
-
-
-.top-container {
-  background-color: #78DEC7;
-  position: relative;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  animation-duration: 0.5s;
+  animation-name: rotate;
 }
 
 
 
+/* NAV BAR */
 
 
 .navbar {
@@ -52,61 +46,16 @@ h1 {
   border-radius: 3rem;
   margin-left: 50px;
 }
-.alert {
-  padding: 15px;
-  margin-top: 0px;
-  border: 1px solid transparent;
-  border-radius: 30px;
-  margin-bottom: 0px;
-}
-
-.header {
-    background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2017-02/15/7/campaign_images/buzzfeed-prod-fastlane-03/people-are-going-nuts-over-this-ugly-cat-after-he-2-16236-1487161410-0_dblbig.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.6);
-}
 
 
-
-.description {
-    left: 50%;
-    position: absolute;
-    top: 45%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-}
-
-.description h1 {
-    color: #CA33FF;
-}
-
-.description p {
-    color: #fff;
-    font-size: 1.3rem;
-    line-height: 1.5;
-}
-
-.description button {
-    border:1px solid #FF0000;
-    background:#FF0000;
-    border-radius: 0;
-    color:#fff;
-}
-
-.description button:hover {
-    border:1px solid #fff;
-    background:#fff;
-    color:#FF0000;
+.top-container {
+  background-color: #78DEC7;
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  /* animation-duration: 3s;
+  animation-name: slideout; */
 }
 
 
@@ -118,74 +67,106 @@ h1 {
   height: 50%;
   width: 50%;
   border-radius: 50%;
-  /* display: none; */
-}
-
-/* .features {
-    margin: 4em auto;
-    padding: 1em;
-    position: relative;
-    background:#000000;
-}
-
-.feature-title {
-    color: #FF0000;
-    font-size: 1.6rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-
-.feature-description {
-    color: #FFFFFF;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.feature-border {
-    border:1px solid #CA33FF;
-    margin-bottom: 40px;
 
 }
 
-.features img {
-    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    margin-bottom: 16px;
-} */
 
-/* .gay-section-container {
-  display: block;
-} */
 
 #gay-section {
   display: block;
 }
 
-#gay-section p {
-  animation-duration: 1.5s;
+/* #gay-section p {
+  animation-duration: 3s;
   animation-name: slidein;
+} */
+
+#fat {
+  animation-duration: 3s;
+  animation-name: fat;
 }
 
-@keyframes slidein {
+#balls {
+  animation-duration: 3s;
+  animation-name: balls;
+  animation-fill-mode: forwards;
+}
+
+#cock {
+  animation-duration: 4s;
+  animation-name: cock;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+@keyframes fat {
   from {
     margin-left: 100%;
     width: 300%;
   }
 
-
+  50% {
+      color: red;
+    }
 
   to {
     margin-left: 0%;
     width: 100%;
   }
 }
+
+
+
+@keyframes cock {
+  from {
+    margin-left: -300%;
+    width: 300%;
+  }
+
+  50% {
+      color: green;
+    }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+
+@keyframes balls {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+
+
+/* @keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+
+
 
 
 @media (max-width: 575.98px) {
