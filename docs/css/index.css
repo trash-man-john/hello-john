@@ -66,6 +66,8 @@ body {
     background: rgba(0, 0, 0, 0.6);
 }
 
+
+
 #Twitch {
   scroll-margin-top: 6rem;
 }
@@ -92,8 +94,9 @@ body {
 .description button {
     border:1px solid #FF0000;
     background:#FF0000;
-    border-radius: 0;
+    border-radius: 10px;
     color:#fff;
+    padding: 2% 10%;
 }
 
 .description button:hover {
@@ -105,7 +108,17 @@ body {
 .features {
     margin: 4em auto;
     position: relative;
+    background-color: black;
 }
+
+/* .container-fluid {
+
+} */
+
+.row {
+  padding: 5% 3%;
+}
+
 
 .feature-title {
     color: white;
@@ -126,21 +139,25 @@ body {
 }
 
 .feature-border {
-    border:10px solid #CA33FF;
+    border:2px solid #CA33FF;
     margin-bottom: 30px;
     border-radius: 10%;
-    box-shadow: -5px 5px black;
-    -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 5px #CA33FF;
     background: red;
-
 }
 
 .features img {
-    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     margin-bottom: 16px;
 }
+
+.bottom-section {
+  background-color: #FBC7F7;
+}
+
+.fart-button {
+  padding-top: 8%;
+}
+
 
 @media (max-width: 575.98px) {
 
