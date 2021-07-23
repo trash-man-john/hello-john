@@ -43,17 +43,24 @@ body {
   background-color: #78DEC7;
 }
 
-.wisepost-field {
-  /* width: 50%; */
+#bottom {
+  display: none;
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #78DEC7;
+  color: red;
+}
+
+#bottom.very-unwise {
+  text-align: center;
+  background-color: #78DEC7;
 }
 
 
-.features img {
-    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    margin-bottom: 16px;
-}
+
+
+
+
 
 @media (max-width: 575.98px) {
 
