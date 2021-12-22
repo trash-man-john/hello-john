@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    text-align: center;
+}
+
+.navbar {
+    background:#CA33FF;
+    border-bottom: solid 2px red;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header-cta {
+  background-color: red;
+  border-radius: 3rem;
+  margin-left: 50px;
+}
+
+
+.alert {
+  padding: 15px;
+  margin-top: 0px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  margin-bottom: 0px;
+}
+
+.header {
+    background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2017-02/15/7/campaign_images/buzzfeed-prod-fastlane-03/people-are-going-nuts-over-this-ugly-cat-after-he-2-16236-1487161410-0_dblbig.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+#Twitch {
+  scroll-margin-top: 6rem;
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #CA33FF;
+    text-shadow: -3px 3px black;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border:1px solid #FF0000;
+    background:#FF0000;
+    border-radius: 10px;
+    color:#fff;
+    padding: 2% 10%;
+}
+
+.description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#FF0000;
+}
+
+.features {
+    margin: 4em auto;
+    position: relative;
+    background-color: black;
+}
+
+/* .container-fluid {
+
+} */
+
+.row {
+  padding: 5% 3%;
+}
+
+
+.feature-title {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.feature-description {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-border {
+    border:2px solid #CA33FF;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    box-shadow: 3px 5px #CA33FF;
+    background: red;
+}
+
+.features img {
+    margin-bottom: 16px;
+}
+
+.bottom-section {
+  background-color: #FBC7F7;
+}
+
+
+#top-buttons { white-space: nowrap; }
+.toggle-button,
+.fade-button { display: inline-block; }
+
+
+
+.fart,
+.shit,
+.turd {
+  display:none;
+}
+
+.the-panels {
+  text-align: center;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+.panel {
+  font-weight: bold;
+}
+
+.expand-panel {
+  padding: 40px;
+  display: none;
+}
+
+.animate {
+  height: 100px;
+  width: 100px;
+  background: red;
+  margin: auto;
+  position: relative;
+  border-radius: 50px;
+}
+
+.btn-warning {
+  margin-top: 30px;
+}
+
+
+@media (max-width: 575.98px) {
+
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+
+}
