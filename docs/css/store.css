@@ -9,6 +9,14 @@ body {
     background-color: #78DEC7;
 }
 
+h2 {
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
 h3 {
   color: black;
   font-weight: bold;
@@ -63,7 +71,22 @@ h4 {
   margin-bottom: 0px;
 } */
 
+.page-default {
+  text-align: center;
+  margin-top: 50px;
+}
 
+.tab-link-container {
+  text-align: center;
+}
+
+.tab-link {
+  color: #D62AD0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
 
 
 /* CAROUSELS */
@@ -102,6 +125,27 @@ h4 {
   border: 1px none;
   box-shadow: 7px 10px #888888;
 }
+
+.third-carousel-header {
+  margin-top: 1rem;
+
+}
+
+#thirdcarousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#lastcarousel {
+  background-color: #CA33FF;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
+}
+
+
+
 
 .carousel-item {
   padding: 7% 15%;
