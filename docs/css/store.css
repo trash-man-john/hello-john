@@ -85,64 +85,176 @@ h4 {
   font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
-  margin: 10px;
+  margin: 10px 7px;
 }
 
 
 /* CAROUSELS */
 
-.top-carousel-header {
+.shirt-carousel-header {
   margin-top: 1rem;
+  text-align: center;
 
 }
 
-#topcarousel {
+#shirt-carousel {
   text-align: center;
   padding: 0 7px;
 }
 
-#firstcarousel {
+#shirt-inner-carousel {
   background-color: #D62AD0;
   border-radius: 7%;
   border: 1px none;
   box-shadow: 7px 10px #888888;
 }
 
-.bottom-carousel-header {
-  margin-top: 1rem;
+
+
+
+
+.hoodie-carousel-header {
+  margin-top: 2rem;
+  text-align: center;
 
 }
 
-#bottomcarousel {
+#hoodie-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#hoodie-inner-carousel {
+  background-color: #CA33FF;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
+}
+
+
+
+.weird-shit-carousel-header {
+  margin-top: 2rem;
+  text-align: center;
+
+}
+
+#weird-shit-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#weird-shit-inner-carousel {
+  background-color: #D62AD0;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
+}
+
+
+
+
+
+
+
+.mug-carousel-header {
+  margin-top: 1rem;
+  text-align: center;
+
+}
+
+#mug-carousel {
   text-align: center;
   padding: 0 7px;
   margin-bottom: 1rem;
 }
 
-#secondcarousel {
+#mug-inner-carousel {
   background-color: #FB7AFC;
   border-radius: 7%;
   border: 1px none;
   box-shadow: 7px 10px #888888;
 }
 
-.third-carousel-header {
-  margin-top: 1rem;
+
+
+.glass-carousel-header {
+  margin-top: 2rem;
+  text-align: center;
 
 }
 
-#thirdcarousel {
+#glasscarousel {
   text-align: center;
   padding: 0 7px;
   margin-bottom: 1rem;
 }
 
-#lastcarousel {
+#glass-inner-carousel {
   background-color: #CA33FF;
   border-radius: 7%;
   border: 1px none;
   box-shadow: 7px 10px #888888;
 }
+
+
+
+
+
+
+
+
+
+
+.iphone-case-carousel-header {
+  margin-top: 1rem;
+  text-align: center;
+
+}
+
+#iphone-case-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#iphone-case-inner-carousel {
+  background-color: #CA33FF;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
+}
+
+
+
+
+
+
+
+.android-case-carousel-header {
+  margin-top: 2rem;
+  text-align: center;
+
+}
+
+#android-case-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#android-case-inner-carousel {
+  background-color: #FB7AFC;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
+}
+
+
+
+
+
+
 
 
 
