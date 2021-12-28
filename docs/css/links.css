@@ -89,10 +89,12 @@ body {
 
 }
 
-
+.fart-button {
+  margin-top: 30px;
+}
 
 #cool {
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-name: cool;
 }
 
