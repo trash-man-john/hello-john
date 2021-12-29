@@ -38,7 +38,7 @@ body {
 }
 */
 .head {
-  margin-top: 120px;
+  margin-top: 100px;
   height: 100px;
 }
 
@@ -52,12 +52,13 @@ body {
 .head p {
   text-align: center;
   font-weight: bold;
+  margin: 0 3px;
 }
 
 
 
 .links {
-  margin-top: 130px;
+  margin-top: 110px;
 }
 
 .row {
@@ -78,19 +79,20 @@ body {
 }
 
 .col-sm.balls {
-  background: yellow;
-  color: black;
+  background: red;
+  color: white;
   border: 1px solid black;
-  margin-bottom: 25px;
+  margin-bottom: 32px;
   padding: 15px 0;
   border-radius: 10px;
   font-weight: bold;
-  filter: drop-shadow(-5px 5px 6px #333);
+  filter: drop-shadow(-5px 5px 4px #CA33FF);
 
 }
 
 .fart-button {
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 #cool {

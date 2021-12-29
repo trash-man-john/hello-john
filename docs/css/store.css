@@ -20,6 +20,7 @@ h2 {
 h3 {
   color: black;
   font-weight: bold;
+  text-shadow: 2px 2px 6px #ff0000;
 
 }
 
@@ -144,7 +145,7 @@ a:hover {
   font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
-  margin: 7px 5px;
+  margin: 7px 7px;
   padding: 0px 5px;
   background-color: white;
   border-radius: 10px;
@@ -182,6 +183,7 @@ a:hover {
 .shirt-carousel-header {
   margin-top: 1rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 #shirt-carousel {
@@ -199,6 +201,7 @@ a:hover {
 .hoodie-carousel-header {
   margin-top: 2rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 #hoodie-carousel {
@@ -216,6 +219,7 @@ a:hover {
 .weird-shit-carousel-header {
   margin-top: 2rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 #weird-shit-carousel {
@@ -230,27 +234,10 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.mug-carousel-header {
+.glass-carousel-header {
   margin-top: 1rem;
   text-align: center;
-}
-
-#mug-carousel {
-  text-align: center;
-  padding: 0 7px;
   margin-bottom: 1rem;
-}
-
-#mug-inner-carousel {
-  background-color: #FB7AFC;
-  border-radius: 7%;
-  border: 1px none;
-  box-shadow: 7px 10px #888888;
-}
-
-.glass-carousel-header {
-  margin-top: 2rem;
-  text-align: center;
 }
 
 #glasscarousel {
@@ -266,9 +253,30 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
+
+.mug-carousel-header {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#mug-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#mug-inner-carousel {
+  background-color: #FB7AFC;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
+}
+
 .iphone-case-carousel-header {
   margin-top: 1rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 #iphone-case-carousel {
@@ -287,6 +295,7 @@ a:hover {
 .android-case-carousel-header {
   margin-top: 2rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 #android-case-carousel {
@@ -305,6 +314,7 @@ a:hover {
 .stickers-carousel-header {
   margin-top: 1rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 #stickers-carousel {
@@ -323,6 +333,7 @@ a:hover {
 .accessories-carousel-header {
   margin-top: 1rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 #accessories-carousel {
@@ -341,6 +352,7 @@ a:hover {
 .homeware-carousel-header {
   margin-top: 2rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 #homeware-carousel {
@@ -357,8 +369,40 @@ a:hover {
 }
 
 
+.under-fifteen-carousel-header {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#under-fifteen-carousel {
+  text-align: center;
+  padding: 0 7px;
+
+}
+
+#under-fifteen-inner-carousel {
+  background-color: #CA33FF;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
+}
+
+.under-fifteen-carousel-sticker-header {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
 
+
+.pricing-copy {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 0;
+
+}
 
 .carousel-item {
   padding: 7% 15%;
