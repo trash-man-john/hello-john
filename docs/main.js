@@ -30,3 +30,12 @@ function showResults() {
   var x = document.getElementById("gay-results");
   x.style.display = "block";
 }
+
+$(document).ready(function() {
+  $(".toggle-button").click(function(){
+    $(".head").toggle(500);
+  });
+  $(".btn-warning").click(function(){
+    $(".animate").animate({top: '500px'});
+  });
+});
