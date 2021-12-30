@@ -37,29 +37,36 @@ body {
   margin-bottom: 0px;
 }
 */
-.head {
-  margin-top: 40px;
-  height: 100px;
-}
 
 .head h2 {
   color: #CA33FF;
   text-align: center;
   font-weight: bold;
+  margin-top: 40px;
   margin-bottom: 0;
+}
+
+.head img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  border-radius: 50%;
 }
 
 .head p {
   text-align: center;
   font-weight: bold;
   line-height: 1.25;
-  margin: 0 6px;
+  margin: 0 30px;
 }
 
 
 
 .links {
-  margin-top: 110px;
+  margin-top: 10px;
 }
 
 .row {
@@ -83,6 +90,7 @@ body {
   background: red;
   color: white;
   border: 1px solid black;
+  margin-top: 20px;
   margin-bottom: 32px;
   padding: 15px 0;
   border-radius: 10px;
