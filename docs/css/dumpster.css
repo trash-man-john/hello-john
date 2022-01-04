@@ -65,6 +65,52 @@ h4 {
 } */
 
 
+.filters {
+  background-image: linear-gradient(to right, red, #CA33FF);
+  z-index: 10;
+}
+
+.nav.nav-tabs.tab-link-container {
+  padding-bottom: 10px;
+}
+
+
+.nav-tabs {
+  border-bottom: 2px solid #dee2e6;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+#TabsClicked .clicked {
+    background: #78DEC7;
+    color: #CA33FF;
+}
+
+
+
+#page-default {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tab-link {
+  color: black;
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 7px 5px;
+  padding: 2px 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+
 .row {
   padding: 5% 3%;
 }
@@ -146,49 +192,6 @@ h4 {
 
 
 
-.filters {
-  background-image: linear-gradient(to right, red, #CA33FF);
-  z-index: 10;
-}
-
-.nav.nav-tabs.tab-link-container {
-  padding-bottom: 10px;
-}
-
-
-.nav-tabs {
-  border-bottom: 2px solid #dee2e6;
-}
-
-a:hover {
-  color: red;
-  text-decoration: none;
-}
-
-#TabsClicked .clicked {
-    background: #78DEC7;
-    color: #CA33FF;
-}
-
-
-
-#page-default {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.tab-link {
-  color: black;
-  font-size: 1.05rem;
-  font-weight: bold;
-  text-align: center;
-  margin: 7px 5px;
-  padding: 2px 5px;
-  background-color: white;
-  border-radius: 10px;
-}
 
 /* CAROUSELS */
 .carousel-item.active {
