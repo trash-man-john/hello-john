@@ -181,11 +181,11 @@ a:hover {
 
 .tab-link {
   color: black;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  margin: 7px 7px;
-  padding: 0px 3px;
+  margin: 7px 5px;
+  padding: 2px 5px;
   background-color: white;
   border-radius: 10px;
 }
