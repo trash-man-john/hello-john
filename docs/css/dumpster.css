@@ -12,7 +12,7 @@ h2 {
   color: white;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding-top: 5px;
   font-family: monospace;
 }
@@ -181,7 +181,7 @@ a:hover {
 
 .tab-link {
   color: black;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: bold;
   text-align: center;
   margin: 7px 5px;
