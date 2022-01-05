@@ -190,6 +190,15 @@ a:hover {
   margin-bottom: 0;
 }
 
+.discounted-pricing-copy {
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
 .actual-pricing-copy {
   font-size: 17px;
   text-align: center;
