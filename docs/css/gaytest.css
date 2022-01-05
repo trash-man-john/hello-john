@@ -11,7 +11,9 @@ h1 {
   animation-name: rotate;
 }
 
-
+a {
+  margin-bottom: 15px;
+}
 
 /* NAV BAR */
 
@@ -59,7 +61,7 @@ h1 {
 }
 
 .sorry {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #cat {
