@@ -193,10 +193,21 @@ a:hover {
 .discounted-pricing-copy {
   font-size: 17px;
   text-align: center;
-  color: white;
+  color: black;
   font-weight: bold;
   margin-top: 7px;
   margin-bottom: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.strike {
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 2px solid red;
+    left: 0;
+
 }
 
 .actual-pricing-copy {
@@ -206,6 +217,7 @@ a:hover {
   font-weight: bold;
   margin-top: 7px;
   margin-bottom: 0;
+  display: inline-block;
 }
 
 .section-description-copy {
