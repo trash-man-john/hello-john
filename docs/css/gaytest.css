@@ -58,6 +58,9 @@ h1 {
   animation-name: slideout; */
 }
 
+.sorry {
+  margin-bottom: 20px;
+}
 
 #cat {
   display: none;
