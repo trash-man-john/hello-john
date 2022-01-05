@@ -134,7 +134,7 @@ a:hover {
 }
 
 .feature-border {
-    border:2px solid #CA33FF;
+    border:2px solid red;
     margin-bottom: 5px;
     box-shadow: 4px 4px 6px red;
     background: #CA33FF;
@@ -192,7 +192,7 @@ a:hover {
 }
 
 
-.active-discount {
+.discount-badge {
   background-color: yellow;
   color: black;
   margin-bottom: -3px;
