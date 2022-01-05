@@ -123,13 +123,14 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .flex-item {
   margin: 7px 7px;
   font-size: 30px;
-  width: 44%;
+  width: 45%;
 }
 
 .feature-border {
@@ -354,7 +355,7 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-#glasscarousel {
+#glass-carousel {
   text-align: center;
   padding: 0 7px;
   margin-bottom: 1rem;
