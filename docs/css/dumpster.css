@@ -155,7 +155,7 @@ a:hover {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     text-align: center;
 }
 
@@ -179,18 +179,31 @@ a:hover {
   padding: 3px 20px;
   font-weight: bold;
   border: solid 2px #78DEC7;
-  /* display: none; */
+  display: none;
 }
 
 .pricing-copy {
   font-size: 15px;
   text-align: center;
   color: white;
-  margin-top: 5px;
   margin-bottom: 0;
 }
 
+.actual-pricing-copy {
+  font-size: 17px;
+  text-align: center;
+  color: #78DEC7;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
 
+.section-description-copy {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
 
 
 /* CAROUSELS */
@@ -258,6 +271,25 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
+.long-sleeve-carousel-header {
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#long-sleeve-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#long-sleeve-inner-carousel {
+  background-color: #D62AD0;
+  border-radius: 7%;
+  border: 1px none;
+  box-shadow: 7px 10px #888888;
+}
+
+
 .hoodie-carousel-header {
   margin-top: 2rem;
   text-align: center;
@@ -279,7 +311,7 @@ a:hover {
 .weird-shit-carousel-header {
   margin-top: 2rem;
   text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #weird-shit-carousel {
