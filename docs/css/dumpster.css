@@ -18,9 +18,11 @@ h2 {
 }
 
 h3 {
-  color: black;
-  font-weight: bold;
-  text-shadow: 2px 2px 6px #ff0000;
+  color: red;
+  font-weight: 900;
+  text-align: center;
+  margin: 20px 0;
+
 
 }
 
@@ -134,7 +136,7 @@ a:hover {
 }
 
 .feature-border {
-    border:2px solid red;
+    border:1px solid red;
     margin-bottom: 5px;
     box-shadow: 4px 4px 6px red;
     background: #CA33FF;
@@ -184,7 +186,7 @@ a:hover {
 }
 
 .pricing-copy {
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
   color: white;
   margin-bottom: 0;
@@ -264,8 +266,7 @@ a:hover {
 }
 
 .new-releases-carousel-header {
-  margin-top: 1rem;
-  text-align: center;
+
 }
 
 #new-releases-carousel {
@@ -283,8 +284,7 @@ a:hover {
 
 
 .top-seller-carousel-header {
-  margin-top: 1rem;
-  text-align: center;
+
 }
 
 #top-seller-carousel {
@@ -306,9 +306,7 @@ a:hover {
 
 
 .shirt-carousel-header {
-  margin-top: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #shirt-carousel {
@@ -324,9 +322,7 @@ a:hover {
 }
 
 .long-sleeve-carousel-header {
-  margin-top: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #long-sleeve-carousel {
@@ -343,9 +339,7 @@ a:hover {
 
 
 .hoodie-carousel-header {
-  margin-top: 2rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #hoodie-carousel {
@@ -361,8 +355,7 @@ a:hover {
 }
 
 .weird-shit-carousel-header {
-  margin-top: 2rem;
-  text-align: center;
+
 
 }
 
@@ -379,9 +372,7 @@ a:hover {
 }
 
 .crop-top-carousel-header {
-  margin-top: 2rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #crop-top-carousel {
@@ -401,9 +392,7 @@ a:hover {
 
 
 .glass-carousel-header {
-  margin-top: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #glass-carousel {
@@ -421,9 +410,7 @@ a:hover {
 
 
 .mug-carousel-header {
-  margin-top: 2rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #mug-carousel {
@@ -440,9 +427,7 @@ a:hover {
 }
 
 .iphone-case-carousel-header {
-  margin-top: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #iphone-case-carousel {
@@ -459,9 +444,7 @@ a:hover {
 }
 
 .android-case-carousel-header {
-  margin-top: 2rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #android-case-carousel {
@@ -478,9 +461,7 @@ a:hover {
 }
 
 .stickers-carousel-header {
-  margin-top: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #stickers-carousel {
@@ -497,9 +478,7 @@ a:hover {
 }
 
 .accessories-carousel-header {
-  margin-top: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #accessories-carousel {
@@ -516,9 +495,7 @@ a:hover {
 }
 
 .homeware-carousel-header {
-  margin-top: 2rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
 }
 
 #homeware-carousel {
@@ -536,8 +513,7 @@ a:hover {
 
 
 .under-fifteen-carousel-header {
-  margin-top: 1rem;
-  text-align: center;
+
 }
 
 #under-fifteen-carousel {
@@ -554,9 +530,7 @@ a:hover {
 }
 
 .under-fifteen-carousel-sticker-header {
-  margin-top: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
+
 }
 
 .carousel-item {
