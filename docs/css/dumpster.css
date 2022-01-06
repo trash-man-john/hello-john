@@ -244,7 +244,7 @@ a:hover {
 .actual-pricing-copy {
   font-size: 17px;
   text-align: center;
-  color: white;
+  color: #78DEC7;
   font-weight: bold;
   margin-top: 7px;
   margin-bottom: 0;
@@ -265,10 +265,6 @@ a:hover {
   text-align: center;
 }
 
-.new-releases-carousel-header {
-
-}
-
 #new-releases-carousel {
   text-align: center;
   padding: 0 7px;
@@ -281,11 +277,6 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-
-
-.top-seller-carousel-header {
-
-}
 
 #top-seller-carousel {
   text-align: center;
@@ -301,14 +292,6 @@ a:hover {
 
 
 
-
-
-
-
-.shirt-carousel-header {
-
-}
-
 #shirt-carousel {
   text-align: center;
   padding: 0 7px;
@@ -321,9 +304,7 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.long-sleeve-carousel-header {
 
-}
 
 #long-sleeve-carousel {
   text-align: center;
@@ -338,9 +319,7 @@ a:hover {
 }
 
 
-.hoodie-carousel-header {
 
-}
 
 #hoodie-carousel {
   text-align: center;
@@ -354,10 +333,7 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.weird-shit-carousel-header {
 
-
-}
 
 #weird-shit-carousel {
   text-align: center;
@@ -371,9 +347,7 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.crop-top-carousel-header {
 
-}
 
 #crop-top-carousel {
   text-align: center;
@@ -390,11 +364,6 @@ a:hover {
 
 
 
-
-.glass-carousel-header {
-
-}
-
 #glass-carousel {
   text-align: center;
   padding: 0 7px;
@@ -409,9 +378,7 @@ a:hover {
 }
 
 
-.mug-carousel-header {
 
-}
 
 #mug-carousel {
   text-align: center;
@@ -426,9 +393,7 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.iphone-case-carousel-header {
 
-}
 
 #iphone-case-carousel {
   text-align: center;
@@ -443,9 +408,7 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.android-case-carousel-header {
 
-}
 
 #android-case-carousel {
   text-align: center;
@@ -460,9 +423,7 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.stickers-carousel-header {
 
-}
 
 #stickers-carousel {
   text-align: center;
@@ -477,9 +438,7 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.accessories-carousel-header {
 
-}
 
 #accessories-carousel {
   text-align: center;
@@ -494,9 +453,7 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.homeware-carousel-header {
 
-}
 
 #homeware-carousel {
   text-align: center;
@@ -512,9 +469,7 @@ a:hover {
 }
 
 
-.under-fifteen-carousel-header {
 
-}
 
 #under-fifteen-carousel {
   text-align: center;
@@ -529,9 +484,7 @@ a:hover {
   box-shadow: 7px 10px #888888;
 }
 
-.under-fifteen-carousel-sticker-header {
 
-}
 
 .carousel-item {
   padding: 7% 15%;
