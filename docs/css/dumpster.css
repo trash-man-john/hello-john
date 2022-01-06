@@ -201,10 +201,10 @@ a:hover {
   font-size: 14px;
   font-weight: bold;
   height: 25px;
-  width: 110px;
+  width: 159.438px;
   /* border: solid 1px #CA33FF; */
   border-top-left-radius: 8px;
-  border-bottom-right-radius: 6px;
+  border-top-right-radius: 8px;
 
 }
 
@@ -258,6 +258,16 @@ a:hover {
   font-weight: bold;
   font-style: oblique;
 }
+
+.weird-fart {
+  margin: 10px 0;
+}
+
+#weird-section-cover {
+  display: none;
+}
+
+
 
 
 /* CAROUSELS */

@@ -32,19 +32,13 @@ $(function(){
 });
 
 
+function showWeird() {
+  var x = document.getElementById("weird-section-cover");
+  x.style.display = "block";
+}
 
-$('.carousel').carousel({
-  interval: false,
-});
-
-$('.carousel-inner').carousel({
-  interval: false,
-});
-
-$('.carousel-item').carousel({
-  interval: false,
-});
-
-$('.carousel-item.active').carousel({
-  interval: false,
-});
+// function changeButton() {
+//   var btn = document.getElementById("weird1");
+//   btn.value = 'my value'; // will just add a hidden value
+//   btn.innerHTML = 'my text';
+// }
