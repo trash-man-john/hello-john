@@ -29,6 +29,7 @@ h2 {
   margin-left: 5px;
   padding-top: 5px;
   font-family: monospace;
+  float: right;
 }
 
 
@@ -89,7 +90,7 @@ a:hover {
 
 .tab-link {
   color: black;
-  font-size: 1.05rem;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
   margin: 7px 5px;
