@@ -13,6 +13,16 @@ h2 {
   font-family: monospace;
 }
 
+.tabs img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+
 
 /* PRODUCT SECTION TITLES AND SUBTITLES */
 
