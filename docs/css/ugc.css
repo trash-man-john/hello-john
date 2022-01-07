@@ -117,6 +117,10 @@ h3 {
 }
 
 
+.ugc-store-button {
+  margin: 15px 0;
+}
+
 
 /* FLEX BOX STYLING */
 
@@ -210,6 +214,17 @@ h3 {
   margin-top: 10px;
   text-align: center;
   display: none;
+}
+
+.ugc-store-button {
+  background-color: #CA33FF;
+  color: white;
+  padding: 3px 20px;
+  font-weight: bold;
+  border: solid 2px #CA33FF;
+  margin-top: 10px;
+  text-align: center;
+
 }
 
 /* DISCOUNTED PRICE CALLOUT */
