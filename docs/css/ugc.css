@@ -1,0 +1,336 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #78DEC7;
+}
+
+#inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balls {
+  float: left;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  width: 80;
+  height: 80;
+}
+
+h2 {
+  color: #78DEC7;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 85px;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+
+
+/* NAV BAR */
+.navbar {
+  background: #CA33FF;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* ABOVE FILTERS */
+
+.alert {
+  margin-bottom: -2px;
+  display: none;
+}
+
+.filters {
+  background-image: linear-gradient(to right, red, #CA33FF);
+  z-index: 10;
+}
+
+#TabsClicked .clicked {
+    background: #78DEC7;
+    color: #CA33FF;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #CA33FF;
+}
+
+.tab-link-container {
+  padding-bottom: 15px;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.tab-link {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 7px 5px;
+  padding: 2px 5px;
+  background-color: white;
+  border: solid 1px #78DEC7;
+  border-radius: 8px;
+}
+
+/* PRODUCT SECTION TITLES AND SUBTITLES */
+
+h3 {
+  color: red;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.section-description-copy {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+
+
+/* FLEX BOX STYLING */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-item {
+  margin: 7px 7px;
+  font-size: 30px;
+  width: 100%;
+}
+
+
+/* PRODUCT CARDS */
+
+.discount-badge {
+  background-color: yellow;
+  color: black;
+  margin-bottom: -3px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 25px;
+  width: 159.438px;
+  /* border: solid 1px #CA33FF; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.feature-border {
+    border:1px solid red;
+    margin-bottom: 5px;
+    box-shadow: 4px 4px 6px red;
+    background: #CA33FF;
+    border-radius: 10px;
+}
+
+.special-feature-border {
+    color: #CA33FF;
+    border:1px solid red;
+    margin-bottom: 5px;
+    box-shadow: 4px 4px 6px red;
+    background: black;
+    border-radius: 10px;
+}
+
+.product-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 0;
+    padding: 0 5px;
+}
+
+.features img {
+    padding: 0 8px;
+    border-radius: 33%;
+}
+
+.actual-pricing-copy {
+  font-size: 17px;
+  text-align: center;
+  color: #78DEC7;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.description-copy {
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.cop-button {
+  background-color: #78DEC7;
+  color: #CA33FF;
+  padding: 3px 20px;
+  font-weight: bold;
+  border: solid 2px #78DEC7;
+  margin-top: 10px;
+  text-align: center;
+  display: none;
+}
+
+/* DISCOUNTED PRICE CALLOUT */
+
+/* .discounted-pricing-copy {
+  font-size: 17px;
+  text-align: center;
+  color: yellow;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.strike {
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid red;
+    left: 0;
+}
+
+.discount-price {
+  font-size: 18px;
+  text-align: center;
+  color: #78DEC7;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 0;
+  display: inline-block;
+} */
+
+
+
+/* WEIRD SHIT SECTION BUTTON/JS */
+
+.weird-fart {
+  margin: 10px 0;
+}
+
+#weird-section-cover {
+  display: none;
+}
+
+
+/* CAROUSELS */
+
+#frog-ugc-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#top-seller-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#under-fifteen-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#shirt-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#long-sleeve-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#hoodie-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#weird-shit-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#glass-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#mug-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#iphone-case-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#android-case-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#stickers-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#accessories-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
+
+#homeware-carousel {
+  text-align: center;
+  padding: 0 7px;
+  margin-bottom: 1rem;
+}
