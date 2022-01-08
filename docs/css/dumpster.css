@@ -34,7 +34,7 @@ h2 {
 
 
 /* NAV BAR */
-/* .navbar {
+.navbar {
   background: #CA33FF;
 }
 
@@ -56,7 +56,7 @@ h2 {
 
 .navbar-collapse {
   justify-content: flex-end;
-} */
+}
 
 /* ABOVE FILTERS */
 
@@ -68,6 +68,7 @@ h2 {
 .filters {
   background-image: linear-gradient(to right, red, #CA33FF);
   z-index: 10;
+  margin-top: 75px;
 }
 
 #TabsClicked .clicked {
