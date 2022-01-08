@@ -6,7 +6,7 @@ body {
 
 #inline {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .balls {
@@ -24,7 +24,7 @@ h2 {
   color: #78DEC7;
   font-weight: bold;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-left: 5px;
   padding-top: 5px;
   font-family: monospace;

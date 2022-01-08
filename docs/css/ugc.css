@@ -183,7 +183,8 @@ h3 {
 
 .features img {
     padding: 0 8px;
-    border-radius: 33%;
+    
+    border-radius: 50%;
 }
 
 .actual-pricing-copy {
