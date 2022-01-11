@@ -141,10 +141,6 @@ h3 {
 
 /* PRODUCT CARDS */
 
-.handle {
-  color: #78DEC7;
-}
-
 .discount-badge {
   background-color: yellow;
   color: black;
@@ -175,7 +171,7 @@ h3 {
     border-radius: 10px;
 }
 
-.product-title {
+.user-card-title {
     color: white;
     font-size: 1.5rem;
     font-weight: 700;
@@ -186,12 +182,16 @@ h3 {
     padding: 0 5px;
 }
 
+.handle {
+  color: #78DEC7;
+}
+
 .features img {
     padding: 0 8px;
     border-radius: 50%;
 }
 
-.actual-pricing-copy {
+.quote-copy {
   font-size: 17px;
   text-align: center;
   color: #78DEC7;
@@ -214,20 +214,22 @@ h3 {
   color: #CA33FF;
   padding: 3px 20px;
   font-weight: bold;
-  border: solid 2px #78DEC7;
+  border: solid 1px white;
   margin-top: 10px;
   text-align: center;
-  display: none;
+
 }
 
 .ugc-store-button {
   background-color: #CA33FF;
   color: white;
-  padding: 3px 20px;
+  text-align: center;
   font-weight: bold;
   border: solid 2px #CA33FF;
+  box-shadow: 4px 4px 6px red;
+  padding: 3px 20px;
   margin-top: 30px;
-  text-align: center;
+  margin-bottom: 50px;
 
 }
 
