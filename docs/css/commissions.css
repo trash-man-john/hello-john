@@ -39,14 +39,17 @@ body {
 */
 
 .head {
-  margin-bottom: 30px;
+  margin-top: 75px;
+  margin-bottom: 25px;
+
+  padding: 40px 0;
+  background-image: linear-gradient(to right, red, #CA33FF);
 }
 
 .head h2 {
-  color: #CA33FF;
+  color: #78DEC7;
   text-align: center;
   font-weight: bold;
-  margin-top: 110px;
   margin-bottom: 0;
 }
 
@@ -54,8 +57,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 50%;
 }
 
@@ -63,14 +66,28 @@ body {
   text-align: center;
   font-weight: bold;
   line-height: 1.25;
-  margin: 0 30px;
+  margin: 0 20px;
+  color: white;
 }
 
+.feature-border {
+    border:2px solid red;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10%;
+    box-shadow: 3px 5px red;
+    background: #CA33FF;
+    padding-left: 7px;
+    padding-right: 7px;
+}
 
 .sample {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 30px;
+  margin: 20px 10px;
+}
+
+.sample p {
+  color: white;
 }
 
 .prompt {
@@ -82,21 +99,44 @@ body {
 
 .tools-used {
   font-weight: bold;
-  color: red;
+  font-style: italic;
   margin-top: 10px;
 
 }
 
 #myImg {
-  border-radius: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg2 {
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 #myImg:hover {opacity: 0.7;}
 
+#myImg2:hover {opacity: 0.7;}
+
 /* The Modal (background) */
 .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  margin-top: 75px;
+}
+
+.modal2 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -119,6 +159,13 @@ body {
   max-width: 700px;
 }
 
+.modal-content2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
 /* Caption of Modal Image */
 #caption {
   margin: auto;
@@ -131,8 +178,26 @@ body {
   height: 150px;
 }
 
+#caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
 /* Add Animation */
 .modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+.modal-content2, #caption2 {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -160,8 +225,25 @@ body {
   transition: 0.3s;
 }
 
+.close2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
 .close:hover,
 .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close2:hover,
+.close2:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -174,8 +256,14 @@ body {
   }
 }
 
+@media only screen and (max-width: 700px){
+  .modal-content2 {
+    width: 100%;
+  }
+}
+
 .sample-heading {
-  color: #CA33FF;
+  color: #78DEC7;
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -191,13 +279,13 @@ body {
 }
 
 .interest {
-  margin: 10px;
+  margin: 30px 10px;
 }
 
 .interest-heading {
   color: #CA33FF;
   font-weight: bold;
-  margin-top: 50px;
+
 }
 
 .contact-button {
@@ -353,14 +441,6 @@ body {
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
-}
-
-.feature-border {
-    border:2px solid #CA33FF;
-    margin-bottom: 30px;
-    border-radius: 10%;
-    box-shadow: 3px 5px #CA33FF;
-    background: red;
 }
 
 .features img {
