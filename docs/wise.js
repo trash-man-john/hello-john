@@ -16,6 +16,9 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
     document.getElementById("wiseButton").disabled = false;
   }
 
+
+
+
   function runWise() {
     var w = document.getElementById("bottom");
     w.style.display = "block";
@@ -24,27 +27,38 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
     document.getElementById("wiseButton").disabled = true;
   }
 
-// function checkAnswer() {
-//   document.getElementById("demo").innerHTML = 5 + 6;
-// }
 
-
-// function returnText(){
-//     let input = document.getElementById("formInput").value;
-//     document.getElementById("demo").innerHTML = "Mmmmm no, " + input + " is very unwise.";
-// }
-
-
-
-
-
-// function wisePost() {
-//   var input = document.getElementById("formInput").value; {
-//     if (input === "sex") {
-//       alert("This content is wise. Approved for posting.");
-//     }
-//     else {
-//       alert("Hmmm no, very unwise.");
-//     }
-//   }
-// }
+  function wisePost() {
+    var input = document.getElementById("formInput").value; {
+      if (input === "sex") {
+        function runWiseTwo() {
+          var w = document.getElementById("bottom-wise");
+          w.style.display = "block";
+          document.getElementById('sound1').play();
+          document.getElementById("formInput").value = "";
+          document.getElementById("wiseButton").disabled = true;
+        }
+        runWiseTwo();
+      }
+      else if (input === "Balls farting 💯") {
+        function runWiseTwo() {
+          var w = document.getElementById("bottom-wise");
+          w.style.display = "block";
+          document.getElementById('sound1').play();
+          document.getElementById("formInput").value = "";
+          document.getElementById("wiseButton").disabled = true;
+        }
+        runWiseTwo();
+      }
+      else {
+        function runWise() {
+          var w = document.getElementById("bottom");
+          w.style.display = "block";
+          document.getElementById('sound1').play();
+          document.getElementById("formInput").value = "";
+          document.getElementById("wiseButton").disabled = true;
+        }
+        runWise();
+      }
+    }
+  }

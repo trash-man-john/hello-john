@@ -41,6 +41,7 @@ body {
   text-align: center;
   padding: 5% 10%;
   background-color: #78DEC7;
+  margin-top: 75px;
 }
 
 #bottom {
@@ -52,6 +53,19 @@ body {
 }
 
 #bottom.very-unwise {
+  text-align: center;
+  background-color: #78DEC7;
+}
+
+#bottom-wise {
+  display: none;
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #78DEC7;
+  color: red;
+}
+
+#bottom-wise.very-wise {
   text-align: center;
   background-color: #78DEC7;
 }
