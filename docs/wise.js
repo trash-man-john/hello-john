@@ -30,7 +30,7 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
 
   function wisePost() {
     var input = document.getElementById("formInput").value; {
-      if (input === "sex") {
+      if (input === "Sex") {
         function runWiseTwo() {
           var w = document.getElementById("bottom-wise");
           w.style.display = "block";
