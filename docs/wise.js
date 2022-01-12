@@ -17,23 +17,23 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
   }
 
 
+var x = document.getElementById("bottom-wise");
+
+var y = document.getElementById("middle-wise");
+
+var z = document.getElementById("bottom");
 
 
-  function runWise() {
-    var w = document.getElementById("bottom");
-    w.style.display = "block";
-    document.getElementById('sound1').play();
-    document.getElementById("formInput").value = "";
-    document.getElementById("wiseButton").disabled = true;
-  }
-
-
-  function wisePost() {
+function wisePost() {
     var input = document.getElementById("formInput").value; {
       if (input === "Sex") {
         function runWiseTwo() {
-          var w = document.getElementById("bottom-wise");
-          w.style.display = "block";
+          var x = document.getElementById("bottom-wise");
+          var y = document.getElementById("middle-wise");
+          var z = document.getElementById("bottom");
+          x.style.display = "block";
+          y.style.display = "none";
+          z.style.display = "none";
           document.getElementById('sound1').play();
           document.getElementById("formInput").value = "";
           document.getElementById("wiseButton").disabled = true;
@@ -42,8 +42,12 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
       }
       else if (input === "Balls farting 💯") {
         function runWiseTwo() {
-          var w = document.getElementById("middle-wise");
-          w.style.display = "block";
+          var x = document.getElementById("bottom-wise");
+          var y = document.getElementById("middle-wise");
+          var z = document.getElementById("bottom");
+          y.style.display = "block";
+          x.style.display = "none";
+          z.style.display = "none";
           document.getElementById('sound1').play();
           document.getElementById("formInput").value = "";
           document.getElementById("wiseButton").disabled = true;
@@ -52,8 +56,12 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
       }
       else {
         function runWise() {
-          var w = document.getElementById("bottom");
-          w.style.display = "block";
+          var x = document.getElementById("bottom-wise");
+          var y = document.getElementById("middle-wise");
+          var z = document.getElementById("bottom");
+          z.style.display = "block";
+          x.style.display = "none";
+          y.style.display = "none";
           document.getElementById('sound1').play();
           document.getElementById("formInput").value = "";
           document.getElementById("wiseButton").disabled = true;
