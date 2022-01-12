@@ -31,6 +31,23 @@ function showResults() {
   x.style.display = "block";
 }
 
+function showBroke() {
+  var c = document.getElementById("broke");
+  c.style.display = "block";
+}
+
+function hideBrokeSection() {
+  var g = document.getElementById("broke-section");
+  g.style.display = "none";
+}
+
+function showBrokeResults() {
+  var x = document.getElementById("broke-results");
+  x.style.display = "block";
+}
+
+
+
 $(document).ready(function() {
   $(".toggle-button").click(function(){
     $(".head").toggle(500);
