@@ -57,6 +57,19 @@ body {
   background-color: #78DEC7;
 }
 
+#middle-wise {
+  display: none;
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #78DEC7;
+  color: red;
+}
+
+#middle-wise.very-wise {
+  text-align: center;
+  background-color: #78DEC7;
+}
+
 #bottom-wise {
   display: none;
   text-align: center;
@@ -65,7 +78,7 @@ body {
   color: red;
 }
 
-#bottom-wise.very-wise {
+#bottom-wise.incredibly-wise {
   text-align: center;
   background-color: #78DEC7;
 }

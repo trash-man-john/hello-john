@@ -42,7 +42,7 @@ popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=1
       }
       else if (input === "Balls farting 💯") {
         function runWiseTwo() {
-          var w = document.getElementById("bottom-wise");
+          var w = document.getElementById("middle-wise");
           w.style.display = "block";
           document.getElementById('sound1').play();
           document.getElementById("formInput").value = "";
