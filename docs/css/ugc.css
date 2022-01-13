@@ -220,16 +220,20 @@ h3 {
 
 }
 
+.btn {
+  text-align: center;
+}
+
 .ugc-store-button {
   background-color: #CA33FF;
   color: white;
-  text-align: center;
   font-weight: bold;
   border: solid 2px #CA33FF;
   box-shadow: 4px 4px 6px red;
   padding: 3px 20px;
   margin-top: 30px;
   margin-bottom: 50px;
+  text-align: center;
 
 }
 
@@ -290,6 +294,11 @@ h3 {
 }
 
 #dad-ugc-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#balls-ugc-carousel {
   text-align: center;
   padding: 0 7px;
 }
