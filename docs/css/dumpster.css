@@ -261,6 +261,11 @@ h3 {
 
 /* CAROUSELS */
 
+#instant-checkout-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
 #new-releases-carousel {
   text-align: center;
   padding: 0 7px;
