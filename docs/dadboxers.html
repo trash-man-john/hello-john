@@ -72,14 +72,58 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </p>
 
       <p class="quote-copy">
-        Available for a limited time until my free trial with the new sellng service I'm using expires
+        Available for a limited time until my free trial with the new sellng service I'm using expires.<br><br>Look Lois, I learned how to integrate PayPal directly into the Trash Man John Website:
       </p>
-      <p class="product-description">
-        <a href="https://tmjdumpster.bigcartel.com/product/dad-s-boxer-briefs-2" class="btn btn-primary cop-button">Cop The Dad's Drunk Boxers</a>
-      </p>
+      <div id="smart-button-container">
+            <div style="text-align: center;">
+              <div id="paypal-button-container"></div>
+            </div>
+          </div>
+        <script src="https://www.paypal.com/sdk/js?client-id=AZIHwyDRe55yQvJHWvMx9AQ_nTfohwS2UxeqrItyNtMO8M2k5MZwENv7cVEcfYFq72R5ZqiB3cANbXuW&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+        <script>
+          function initPayPalButton() {
+            paypal.Buttons({
+              style: {
+                shape: 'pill',
+                color: 'black',
+                layout: 'horizontal',
+                label: 'buynow',
+
+              },
+
+              createOrder: function(data, actions) {
+                return actions.order.create({
+                  purchase_units: [{"description":"Dad's Drunk Boxers","amount":{"currency_code":"USD","value":34.49,"breakdown":{"item_total":{"currency_code":"USD","value":24.99},"shipping":{"currency_code":"USD","value":8},"tax_total":{"currency_code":"USD","value":1.5}}}}]
+                });
+              },
+
+              onApprove: function(data, actions) {
+                return actions.order.capture().then(function(orderData) {
+
+                  // Full available details
+                  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+                  // Show a success message within this page, e.g.
+                  const element = document.getElementById('paypal-button-container');
+                  element.innerHTML = '';
+                  element.innerHTML = '<h3>Thanks for the payment, team 👍</h3>';
+
+                  // Or go to another URL:  actions.redirect('thank_you.html');
+
+                });
+              },
+
+              onError: function(err) {
+                console.log(err);
+              }
+            }).render('#paypal-button-container');
+          }
+          initPayPalButton();
+        </script>
     </div>
   </div>
 </div>
+<br>
 
 <div class="too-expensive">
 
