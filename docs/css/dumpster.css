@@ -254,12 +254,21 @@ h3 {
   margin: 10px 0;
 }
 
+.love-button {
+  margin-bottom: 10px;
+}
+
 #weird-section-cover {
   display: none;
 }
 
 
 /* CAROUSELS */
+
+#valentines-day-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
 
 #instant-checkout-carousel {
   text-align: center;
