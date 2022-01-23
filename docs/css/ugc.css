@@ -283,6 +283,16 @@ h3 {
 
 /* CAROUSELS */
 
+#assplay-ugc-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
+#frog-ugc-carousel {
+  text-align: center;
+  padding: 0 7px;
+}
+
 #frog-ugc-carousel {
   text-align: center;
   padding: 0 7px;
