@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #78DEC7;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #78DEC7;
+}
+
+.navbar {
+    background:#CA33FF;
+    border-bottom: solid 2px red;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+.top-container {
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #78DEC7;
+  margin-top: 75px;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #78DEC7;
+  padding: 20px 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.yeah {
+  display: inline;
+
+}
+
+#divMsg1 {
+  text-align: center;
+  display: inline;
+  background-color: #78DEC7;
+  color: red;
+}
+
+#divMsg2 {
+  text-align: center;
+  display: inline;
+  background-color: #78DEC7;
+  color: red;
+}
+
+#divMsg3 {
+  text-align: center;
+  display: inline;
+  background-color: #78DEC7;
+  color: red;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+
+}
