@@ -98,6 +98,38 @@ body {
 
 }
 
+.collapsible {
+  background: #CA33FF;
+  color: white;
+  border: 1px solid black;
+  margin: 9px 0;
+  padding: 12px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  filter: drop-shadow(-5px 5px 6px #333);
+  width: 100%;
+  text-align: left;
+}
+
+.active, .collapsible:hover {
+  background: #CA33FF;
+}
+
+.content {
+  /* padding: 0 18px; */
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  /* background: #CA33FF; */
+}
+
+
+.down-arrow {
+  text-align: right;
+  margin-left: 90px;
+  font-size: 20px;
+}
+
 .fart-button {
   margin-top: 30px;
   margin-bottom: 10px;
