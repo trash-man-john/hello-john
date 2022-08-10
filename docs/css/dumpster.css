@@ -215,6 +215,20 @@ h3 {
   display: none;
 }
 
+.cop-button-test {
+  background-color: #78DEC7;
+  color: #CA33FF;
+  padding: 3px 20px;
+  font-weight: bold;
+  border: solid 2px #78DEC7;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  display: none;
+
+}
+
 /* DISCOUNTED PRICE CALLOUT */
 
 /* .discounted-pricing-copy {
