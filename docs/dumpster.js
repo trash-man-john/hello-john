@@ -33,12 +33,32 @@ $(function(){
 
 
 function showWeird() {
-  var x = document.getElementById("weird-section-cover");
+  var x = document.querySelector(".header")("weird-section-cover");
   x.style.display = "block";
-}
+};
 
-// function changeButton() {
-//   var btn = document.getElementById("weird1");
-//   btn.value = 'my value'; // will just add a hidden value
-//   btn.innerHTML = 'my text';
-// }
+function toggleCTA() {
+  var x = document.getElementById("work");
+  x.classList.remove('cop-button-test');
+  x.classList.add('cop-button-test-real');
+};
+
+const copyToClipboard = str => {
+  const el = document.createElement('textarea');
+  el.value = str;
+  el.setAttribute('readonly', '');
+  el.style.position = 'absolute';
+  el.style.left = '-9999px';
+  document.body.appendChild(el);
+  const selected =
+    document.getSelection().rangeCount > 0
+      ? document.getSelection().getRangeAt(0)
+      : false;
+  el.select();
+  document.execCommand('copy');
+  document.body.removeChild(el);
+  if (selected) {
+    document.getSelection().removeAllRanges();
+    document.getSelection().addRange(selected);
+  }
+};
