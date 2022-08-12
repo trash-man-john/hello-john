@@ -1,0 +1,177 @@
+body {
+  background-color: #78DEC7;
+
+}
+
+.navbar {
+    background:#CA33FF;
+    border-bottom: solid 2px red;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/*
+.alert {
+  padding: 15px;
+  margin-top: 0px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  margin-bottom: 0px;
+}
+*/
+
+.head h2 {
+  color: #CA33FF;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.head img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.head p {
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0 30px;
+}
+
+/* .head {
+  margin-bottom: 50px;
+} */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+.roster-title {
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.form-title {
+  color: #CA33FF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit-button {
+  margin-top: 10px;
+  color: black;
+  background-color: #78DEC7;
+}
+
+.application-container input {
+  border: solid 3px #78DEC7;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+}
+
+
+
+
+.top-container {
+  text-align: center;
+  font-size: 20px;
+  margin: 25px 15px;
+}
+
+
+.suspension-container {
+  margin: 40px 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid #CA33FF 3px;
+  border-radius: 15px;
+  background-color: black;
+  filter: drop-shadow(-5px 5px 6px #333);
+  text-align: center;
+}
+
+.roster-container {
+  margin: 20px 5px 40px 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid #CA33FF 3px;
+  border-radius: 8px;
+  background-color: white;
+  /* filter: drop-shadow(-5px 5px 6px #333); */
+  text-align: center;
+}
+
+.countup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.counter-container {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+
+
+.bottom-buttons {
+  position:relative;
+  text-align: center;
+  margin: 40px 0;
+}
+
+
+.fart-button {
+  display: inline-block;
+  padding-right: 10px;
+}
