@@ -9,7 +9,7 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-      alert("Good luck, team!");
+      alert("Thanks. I will review your application and email you within 5 days with a decision");
     })
     document.getElementById("submit-application").disabled = true;
     document.getElementById("submit-application").innerHTML = "Great 👍";
