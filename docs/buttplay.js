@@ -12,11 +12,13 @@ window.addEventListener("load", function() {
       alert("Thanks. I will review your application and email you within 5 days with a decision");
     })
     document.getElementById("submit-application").disabled = true;
-    document.getElementById("submit-application").innerHTML = "Great 👍";
+    document.getElementById("submit-application").innerHTML = "Thanks Team 👍";
     document.getElementById("email-input").value = '';
     document.getElementById("username-input").value = '';
+    document.getElementById("country-input").value = '';
+    document.getElementById("city-state-input").value = '';
     document.getElementById("position-input").value = '';
-    document.getElementById("word-input").value = '';
+    document.getElementById("sentence-input").value = '';
 
   });
 });
