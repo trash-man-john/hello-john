@@ -76,11 +76,13 @@ th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
-  font-size: 14px;
+  font-size: 16px;
+  background-color: #CA33FF;
+  color: #78DEC7;
 }
 
 td {
-  border: 1px solid #dddddd;
+  border: 1px solid #CA33FF;
   text-align: left;
   padding: 8px;
   font-size: 14px;
