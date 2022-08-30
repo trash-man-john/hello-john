@@ -28,7 +28,7 @@ body {
 }
 
 .nav-link:hover {
-    color: red;
+    color: #78DEC7;
 }
 
 .navbar-collapse {
@@ -71,6 +71,11 @@ body {
 .final-section-header {
   text-align: center;
   padding-top: 25px;
+}
+
+.help-section-header {
+  text-align: center;
+  color: #CA33FF;
 }
 
 
