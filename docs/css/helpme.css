@@ -46,6 +46,14 @@ body {
   color: #78DEC7;
 }
 
+.top-container h1 {
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #FF00BD;
+  font-weight: bold;
+  color: #78DEC7;
+}
+
 .top-container p {
   margin-top: 10px;
   font-weight: bold;
@@ -61,21 +69,33 @@ body {
 .top-section-header {
   text-align: center;
   padding: 5px;
+  font-weight: bold;
 }
 
 .section-header {
   text-align: center;
   padding: 5px 20px;
+  font-weight: bold;
+  color: #FF00BD;
+}
+
+.who-section-header {
+  text-align: center;
+  padding: 5px 20px;
+  color: #CA33FF;
+  font-weight: bold;
 }
 
 .final-section-header {
   text-align: center;
   padding-top: 25px;
+  font-weight: bold;
 }
 
 .help-section-header {
   text-align: center;
   color: #CA33FF;
+  font-weight: bold;
 }
 
 /* .container {
