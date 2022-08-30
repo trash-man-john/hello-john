@@ -78,10 +78,49 @@ body {
   color: #CA33FF;
 }
 
+/* .container {
+  height: 70px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
+
+.copy-button {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  background-color: #CA33FF;
+  color: white;
+}
+
+.thanks {
+  font-weight: bold;
+  color: #CA33FF;
+  margin-left: 70px;
+  display: none;
+}
+
+.thanks-show {
+  font-weight: bold;
+  color: #CA33FF;
+  margin-left: 70px;
+  display: inline-block;
+  animation: fadeIn 0.25s;
+}
 
 
-
-
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 
 @media (max-width: 575.98px) {
