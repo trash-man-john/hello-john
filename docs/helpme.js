@@ -39,4 +39,6 @@ const copyToClipboard = str => {
 function balls() {
     var thanks = document.getElementById("thank-you");
     thanks.classList.toggle("thanks-show");
+    var button = document.getElementById("thanks-button");
+    button.classList.toggle("copy-button-after");
   }
