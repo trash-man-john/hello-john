@@ -244,6 +244,22 @@ h3 {
 
 }
 
+.instant-checkout-cta {
+  background-color: #78DEC7;
+  color: #CA33FF;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 1px white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 13px;
+  margin-right: 13px;
+  text-align: center;
+
+}
+
+
 .toggle-container{
   margin-left: 12px;
   margin-top: 10px;
