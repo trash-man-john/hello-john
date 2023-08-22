@@ -87,6 +87,13 @@ body {
   filter: drop-shadow(-5px 5px 6px #333);
 }
 
+.timer {
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  padding-left: 30px;
+}
+
 .day-timer {
   color: white;
   font-size: 34px;
