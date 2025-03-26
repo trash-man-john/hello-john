@@ -35,7 +35,7 @@ heap.load = function(e, t) {
   )
     heap[p[c]] = o(p[c]);
 };
-heap.load("YOUR_APP_ID");
+heap.load("4155298946D");
 
 // Function to identify the user
 function identifyUser(userId, userProperties) {
