@@ -2,6 +2,13 @@ window.addEventListener("load", function() {
   const form = document.getElementById('application');
   form.addEventListener("submit", function(e) {
     e.preventDefault();
+    var username = document.getElementById("email-input").value;
+    // Perform authentication (e.g., AJAX request to server)
+    // On successful authentication:
+    identifyUser(username, {
+      "Application Status": "Submitted",
+      "Signup Date": new Date().toISOString(),
+    });
     const data = new FormData(form);
     const action = e.target.action;
     fetch(action, {
