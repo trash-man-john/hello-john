@@ -1,3 +1,29 @@
+window.heap = window.heap || [];
+
+// Track only the first click
+let firstClickRecorded = false;
+
+function handleFirstClick(label) {
+  if (!firstClickRecorded) {
+    heap.addUserProperties({
+      "First Button Clicked": label
+    });
+    firstClickRecorded = true;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Find all CTA buttons by class (e.g. class="track-cta")
+  const ctaButtons = document.querySelectorAll(".track-cta");
+
+  ctaButtons.forEach((button) => {
+    // Use a data attribute or fallback to text content for label
+    const label = button.getAttribute("data-label") || button.textContent.trim();
+
+    button.addEventListener("click", () => handleFirstClick(label));
+  });
+});
+
 /*
  * Basic Count Up from Date and Time
  * Author: @mrwigster / https://guwii.com/bytes/count-date-time-javascript/
