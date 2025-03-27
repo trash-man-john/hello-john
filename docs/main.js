@@ -1,3 +1,27 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('info-modal');
+  const openBtn = document.querySelector('.learn-more-btn');
+  const closeBtn = modal.querySelector('.close-btn');
+
+  if (openBtn && modal && closeBtn) {
+    openBtn.addEventListener('click', () => {
+      modal.classList.add('show');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.classList.remove('show');
+    });
+
+    // Optional: close when clicking outside the modal content
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('show');
+      }
+    });
+  }
+});
+
+
 var ready = (callback) => {
   if (document.readyState != "loading") callback();
   else document.addEventListener("DOMContentLoaded", callback);
@@ -30,23 +54,6 @@ function showResults() {
   var x = document.getElementById("gay-results");
   x.style.display = "block";
 }
-
-function showBroke() {
-  var c = document.getElementById("broke");
-  c.style.display = "block";
-}
-
-function hideBrokeSection() {
-  var g = document.getElementById("broke-section");
-  g.style.display = "none";
-}
-
-function showBrokeResults() {
-  var x = document.getElementById("broke-results");
-  x.style.display = "block";
-}
-
-
 
 $(document).ready(function() {
   $(".toggle-button").click(function(){

@@ -92,8 +92,8 @@
     <h2>The Trash Man John Official Website</h2>
     <img src="media/dennispissedsquare.gif" alt="I'm in your search results." width="100" height="100"/>
     <p>Hi team! Coding this site from scratch. Important links below, and proprietary technology in the menu in the upper right corner of your screen. Thank you!</p>
+    <button class="learn-more-btn">Look at this</button>
   </div>
-
 
 
   <div id="cool" class="links">
@@ -141,6 +141,7 @@
     </div>
   </div>
 
+
   <div class="fart-button">
     <audio id="sound1" src="media/fart.mp3" preload="auto"></audio>
     <div class="text-center">
@@ -150,22 +151,21 @@
 
   </div>
 
-  <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
+  <!-- Modal structure -->
+  <div class="modal-overlay" id="info-modal">
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <img src="media\shreksticker.jpeg" alt="Modal Image" />
+      <h2>Shrek with Waves</h2>
+      <p>Thoughts on Shrek with Waves?</p>
+      <div class="modal-buttons">
+        <button class="primary">Great</button>
+        <button class="secondary">Thanks</button>
+      </div>
+    </div>
+  </div>
+
 
 </body>
 
