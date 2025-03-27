@@ -14,7 +14,7 @@ function handleFirstClick(label) {
 
 document.addEventListener("DOMContentLoaded", function () {
   // Find all CTA buttons by class (e.g. class="track-cta")
-  const ctaButtons = document.querySelectorAll(".track-cta");
+  const ctaButtons = document.querySelectorAll(".btn");
 
   ctaButtons.forEach((button) => {
     // Use a data attribute or fallback to text content for label
