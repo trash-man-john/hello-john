@@ -150,8 +150,6 @@ h2 {
 }
 
 
-
-
 .toggle-container {
   margin-left: 12px;
   margin-top: 10px;
@@ -211,6 +209,15 @@ input[type='checkbox']:checked + .switch {
   position: absolute;
   left: -9999px;
 }
+
+/* .plp-description-copy {
+  margin-bottom: 1rem;
+  font-size: 13px;
+text-align: center;
+color: white;
+margin-bottom: 0;
+font-style: italic;
+} */
 
 /* Modal Overlay */
 .modal-overlay {
