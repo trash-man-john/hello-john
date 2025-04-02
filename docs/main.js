@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', () => {
   const modal = document.getElementById('info-modal');
   const openBtn = document.querySelector('.learn-more-btn');
@@ -35,25 +37,44 @@ function basicPopup(url) {
   popupWindow = window.open(url, 'popUpWindow', 'height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
 }
 
-function pauseSong() {
-  var p = document.getElementById("pause");
-  p.style.display = "block";
-}
+const stripeComponent = document.querySelector('stripe-buy-button');
 
-function showCat() {
-  var c = document.getElementById("cat");
-  c.style.display = "block";
-}
+const observer = new MutationObserver(() => {
+  // Look inside the shadow DOM
+  const shadowRoot = stripeComponent.shadowRoot;
+  if (shadowRoot) {
+    const innerButton = shadowRoot.querySelector('button'); // or 'form', whatever Stripe uses
+    if (innerButton) {
+      innerButton.addEventListener('click', () => {
+        heap.track('Click | PDP | Stripe Buy Now');
+      });
+      observer.disconnect(); // Stop observing once we've attached
+    }
+  }
+});
 
-function hideSection() {
-  var g = document.getElementById("gay-section");
-  g.style.display = "none";
-}
+// Start observing the component to know when shadowRoot is ready
+observer.observe(stripeComponent, { childList: true, subtree: true });
 
-function showResults() {
-  var x = document.getElementById("gay-results");
-  x.style.display = "block";
-}
+// function pauseSong() {
+//   var p = document.getElementById("pause");
+//   p.style.display = "block";
+// }
+
+// function showCat() {
+//   var c = document.getElementById("cat");
+//   c.style.display = "block";
+// }
+
+// function hideSection() {
+//   var g = document.getElementById("gay-section");
+//   g.style.display = "none";
+// }
+
+// function showResults() {
+//   var x = document.getElementById("gay-results");
+//   x.style.display = "block";
+// }
 
 $(document).ready(function() {
   $(".toggle-button").click(function(){
