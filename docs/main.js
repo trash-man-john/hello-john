@@ -1,21 +1,4 @@
-const stripeComponent = document.querySelector('stripe-buy-button');
 
-const observer = new MutationObserver(() => {
-  // Look inside the shadow DOM
-  const shadowRoot = stripeComponent.shadowRoot;
-  if (shadowRoot) {
-    const innerButton = shadowRoot.querySelector('button'); // or 'form', whatever Stripe uses
-    if (innerButton) {
-      innerButton.addEventListener('click', () => {
-        heap.track('Click | PDP | Stripe Buy Now');
-      });
-      observer.disconnect(); // Stop observing once we've attached
-    }
-  }
-});
-
-// Start observing the component to know when shadowRoot is ready
-observer.observe(stripeComponent, { childList: true, subtree: true });
 
 document.addEventListener('DOMContentLoaded', () => {
   const modal = document.getElementById('info-modal');
@@ -41,19 +24,37 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+const stripeComponent = document.querySelector('stripe-buy-button');
+
+const observer = new MutationObserver(() => {
+  // Look inside the shadow DOM
+  const shadowRoot = stripeComponent.shadowRoot;
+  if (shadowRoot) {
+    const innerButton = shadowRoot.querySelector('button'); // or 'form', whatever Stripe uses
+    if (innerButton) {
+      innerButton.addEventListener('click', () => {
+        heap.track('Click | PDP | Stripe Buy Now');
+      });
+      observer.disconnect(); // Stop observing once we've attached
+    }
+  }
+});
+
+// Start observing the component to know when shadowRoot is ready
+observer.observe(stripeComponent, { childList: true, subtree: true });
 
 var ready = (callback) => {
   if (document.readyState != "loading") callback();
   else document.addEventListener("DOMContentLoaded", callback);
-}
+};
 
 ready(() => {
   document.querySelector(".header").style.height = window.innerHeight + "px";
-})
+});
 
 function basicPopup(url) {
   popupWindow = window.open(url, 'popUpWindow', 'height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
-}
+};
 
 // const stripeComponent = document.querySelector('stripe-buy-button');
 
