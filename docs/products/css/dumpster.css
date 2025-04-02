@@ -133,22 +133,27 @@ h2 {
   color: #CA33FF;
   padding: 8px 45px;
   font-weight: bold;
-  border: solid 2px #78DEC7;
+  border: solid 2px #CA33FF;
   margin-top: 10px;
+  filter: drop-shadow(-3px 7px 7px #CA33FF);
   text-align: center;
 }
 
 .learn-more-btn {
   text-align: center;
   font-weight: bold;
-  border:1px solid #FF0000;
-  background:#FF0000;
-  border-radius: 10px;
-  color:#fff;
-  padding: 5px;
-  filter: drop-shadow(-3px 7px 7px #CA33FF);
+  border:2px solid #78DEC7;
+  background-color:#CA33FF;
+  color:#78DEC7;
+  padding: 8px 25px;
+  filter: drop-shadow(-3px 7px 7px #78DEC7);
+  margin-top: 10px;
 }
+stripe-buy-button {
+  text-align: center;
+  margin-top: 10px;
 
+}
 
 .toggle-container {
   margin-left: 12px;
@@ -269,6 +274,7 @@ font-style: italic;
 .modal-content p {
   font-size: 1rem;
   line-height: 1.5;
+  text-align: left;
 }
 
 /* Modal Buttons */
