@@ -166,6 +166,15 @@ stripe-buy-button {
 
 }
 
+.back-to-dumpster-btn {
+  color: #78DEC7;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding: 0 !important;
+}
+
 .toggle-container {
   margin-left: 12px;
   margin-top: 10px;
