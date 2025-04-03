@@ -139,6 +139,17 @@ h2 {
   text-align: center;
 }
 
+.modal-pdp-cop-button {
+  background-color: #78DEC7;
+  color: #CA33FF;
+  padding: 8px 45px;
+  font-weight: bold;
+  border: solid 2px #CA33FF;
+  margin-top: 10px;
+  filter: drop-shadow(-3px 7px 7px #CA33FF);
+  text-align: center;
+}
+
 .learn-more-btn {
   text-align: center;
   font-weight: bold;
