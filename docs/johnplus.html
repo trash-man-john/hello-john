@@ -63,22 +63,33 @@
     <button onclick="logout()">Logout</button>
   </div>
 
-  <script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
 
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     const firebaseConfig = {
-      apiKey: "AIzaSyCA3Q3TlnldrdQ_u6gQfdpj4kMul0PmQ8c",
+      apiKey: "AIzaSyCV8AXE2E8ko2XoCN4kV-HpW0BIZTgYkKM",
       authDomain: "tmj-site.firebaseapp.com",
       projectId: "tmj-site",
       storageBucket: "tmj-site.firebasestorage.app",
       messagingSenderId: "936738367249",
-      appId: "1:936738367249:web:d6aac37ed4183da0968eb0",
-      measurementId: "G-HZPCNMXH51"
+      appId: "1:936738367249:web:1f3901e489ac3dba968eb0",
+      measurementId: "G-ZWM56M7ZFD"
     };
 
-
+    // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
-    const auth = firebase.auth();
+  </script>
+
+  <script>
+
+
 
     let isSignup = false;
 
