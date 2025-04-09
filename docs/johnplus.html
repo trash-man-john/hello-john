@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Firebase SDKs -->
-  <!-- <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js"></script>
 
   <style>
     body {
@@ -64,12 +64,6 @@
   </div>
 
   <script>
-    import {
-      initializeApp
-    } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
-    import {
-      getAnalytics
-    } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js";
 
     const firebaseConfig = {
       apiKey: "AIzaSyCA3Q3TlnldrdQ_u6gQfdpj4kMul0PmQ8c",
@@ -84,7 +78,7 @@
 
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
-    // const auth = firebase.auth();
+    const auth = firebase.auth();
 
     let isSignup = false;
 
