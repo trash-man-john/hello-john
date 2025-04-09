@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>Restricted Area</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Firebase SDKs -->
-  <!-- <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js"></script> -->
-
+  <!-- <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script> -->
+<script src="johnplus.js"></script>
   <style>
     body {
       font-family: sans-serif;
@@ -17,9 +16,7 @@
       color: #eee;
       padding: 2rem;
     }
-
-    input,
-    button {
+    input, button {
       display: block;
       margin: 0.5rem 0;
       padding: 0.5rem;
@@ -27,16 +24,13 @@
       width: 100%;
       max-width: 300px;
     }
-
     #protected-content {
       display: none;
     }
-
     #error-message {
       color: red;
       margin-top: 1rem;
     }
-
     .toggle-mode {
       cursor: pointer;
       color: #0af;
@@ -45,7 +39,6 @@
     }
   </style>
 </head>
-
 <body>
 
   <div id="auth-container">
@@ -64,79 +57,29 @@
   </div>
 
   <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
+  // Import the functions you need from the SDKs you need
+  import {  } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js";
+  // import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js";
+  // import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+  //  Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyCV8AXE2E8ko2XoCN4kV-HpW0BIZTgYkKM",
-      authDomain: "tmj-site.firebaseapp.com",
-      projectId: "tmj-site",
-      storageBucket: "tmj-site.firebasestorage.app",
-      messagingSenderId: "936738367249",
-      appId: "1:936738367249:web:1f3901e489ac3dba968eb0",
-      measurementId: "G-ZWM56M7ZFD"
-    };
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCV8AXE2E8ko2XoCN4kV-HpW0BIZTgYkKM",
+    authDomain: "tmj-site.firebaseapp.com",
+    projectId: "tmj-site",
+    storageBucket: "tmj-site.firebasestorage.app",
+    messagingSenderId: "936738367249",
+    appId: "1:936738367249:web:1f3901e489ac3dba968eb0",
+    measurementId: "G-ZWM56M7ZFD"
+  };
 
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
-
-  <script>
-
-
-
-    let isSignup = false;
-
-    function toggleMode() {
-      isSignup = !isSignup;
-      document.getElementById("form-title").innerText = isSignup ? "Sign Up" : "Login";
-      document.getElementById("auth-button").innerText = isSignup ? "Sign Up" : "Login";
-      document.querySelector(".toggle-mode").innerText = isSignup ?
-        "Already have an account? Login" :
-        "Don't have an account? Sign up";
-      document.getElementById("error-message").innerText = "";
-    }
-
-    function handleAuth() {
-      const email = document.getElementById("email").value;
-      const password = document.getElementById("password").value;
-      const errorMsg = document.getElementById("error-message");
-
-      if (!email || !password) {
-        errorMsg.innerText = "Both fields are required.";
-        return;
-      }
-
-      if (isSignup) {
-        auth.createUserWithEmailAndPassword(email, password)
-          .catch(err => errorMsg.innerText = err.message);
-      } else {
-        auth.signInWithEmailAndPassword(email, password)
-          .catch(err => errorMsg.innerText = err.message);
-      }
-    }
-
-    function logout() {
-      auth.signOut();
-    }
-
-    auth.onAuthStateChanged(user => {
-      if (user) {
-        document.getElementById("auth-container").style.display = "none";
-        document.getElementById("protected-content").style.display = "block";
-      } else {
-        document.getElementById("auth-container").style.display = "block";
-        document.getElementById("protected-content").style.display = "none";
-      }
-    });
-  </script>
+  // Initialize Firebase
+  // const app = initializeApp(firebaseConfig);
+  // const analytics = getAnalytics(app);
+</script>
 
 </body>
-
 </html>
