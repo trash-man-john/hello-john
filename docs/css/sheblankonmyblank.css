@@ -78,7 +78,10 @@ body {
   color: red;
 }
 
-
+.pdp-cta-container {
+  display: flex;
+  justify-content: space-between;
+}
 
 .subscribe-button {
   background-color: #CA33FF;
