@@ -80,8 +80,29 @@ body {
 
 
 
+.subscribe-button {
+  background-color: #CA33FF;
+  color: #78DEC7;
+  padding: 8px 45px;
+  font-weight: bold;
+  border: solid 2px #78DEC7;
+  margin-top: 10px;
+  filter: drop-shadow(-3px 7px 7px #78DEC7);
+  text-align: center;
+}
 
 
+
+.john-plus-button {
+  text-align: center;
+  font-weight: bold;
+  border:2px solid #CA33FF;
+  background-color:#78DEC7;
+  color:#CA33FF;
+  padding: 8px 25px;
+  filter: drop-shadow(-3px 7px 7px #CA33FF);
+  margin-top: 10px;
+}
 
 
 
