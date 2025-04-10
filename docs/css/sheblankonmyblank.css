@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    background-color: #78DEC7;
+      background-image: linear-gradient(to right, red, #CA33FF);
 }
 
 
@@ -8,6 +8,7 @@ body {
     padding: 0;
     margin: 0;
     color: #78DEC7;
+    background-image: linear-gradient(to right, red, #CA33FF);
 }
 
 .navbar {
@@ -40,13 +41,15 @@ body {
 .top-container {
   text-align: center;
   padding: 5% 10%;
-  background-color: #78DEC7;
+  /* background-color: #78DEC7; */
   margin-top: 75px;
+  font-weight: bold;
 }
 
 .bottom-container {
   text-align: center;
   background-color: #78DEC7;
+  color: #CA33FF;
   padding: 20px 10px;
   font-weight: bold;
   font-size: 24px;
@@ -55,6 +58,12 @@ body {
 .yeah {
   display: inline;
 
+}
+
+.btn-danger {
+  border: black 2px solid;
+  filter: drop-shadow(-3px 7px 5px black);
+  width: 50%;
 }
 
 #divMsg1 {
@@ -77,17 +86,28 @@ body {
   background-color: #78DEC7;
   color: red;
 }
+.rtg-john-container {
+  margin-top: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
 
+/* .rtg-john-container p {
+  margin-top: 76px;
+
+  text-align: center;
+} */
 .pdp-cta-container {
   display: flex;
-  justify-content: space-between;
-    background-color: #78DEC7;
+  justify-content: space-evenly;
+    /* background-color: #78DEC7; */
 }
 
 .subscribe-button {
   background-color: #CA33FF;
   color: #78DEC7;
-  padding: 8px 45px;
+  padding: 8px 25px;
   font-weight: bold;
   border: solid 2px #78DEC7;
   margin-top: 10px;
