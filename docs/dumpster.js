@@ -81,7 +81,7 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-      alert("Thanks. I will review your application and email you within 5 days with a decision");
+      alert("Good choice. Stay tuned, family");
     })
     document.getElementById("submit-application").disabled = true;
     document.getElementById("submit-application").innerHTML = "Thanks Team 👍";
