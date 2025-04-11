@@ -197,3 +197,53 @@ body {
   display: inline-block;
   padding-right: 10px;
 }
+
+.email-form-title {
+  color: #78DEC7;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.email-form-subtitle {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.email-container {
+  margin: 20px 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid #CA33FF 3px;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, red, #CA33FF);
+  filter: drop-shadow(-5px 5px 6px #333);
+  text-align: center;
+}
+
+.application-container input {
+  border: solid 2px #CA33FF;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+}
+
+.submit-button {
+  margin-top: 10px;
+  color: black;
+  background-color: #78DEC7;
+  border: solid #CA33FF 2px;
+}
+
+.email-subscribe-button {
+  background-color: #78DEC7;
+  color: #CA33FF;
+  padding: 3px 60px;
+  font-weight: bold;
+  border: solid 2px #CA33FF;
+  margin-top: 10px;
+  filter: drop-shadow(-3px 7px 7px #78DEC7);
+  text-align: center;
+}
