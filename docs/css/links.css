@@ -304,23 +304,25 @@ body {
 }
 
 .email-form-title {
-  color: #CA33FF;
+  color: #78DEC7;
   font-size: 20px;
   font-weight: bold;
 }
 
 .email-form-subtitle {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 5px;
 }
 
 .email-container {
-  margin: 40px 15px;
+  margin: 20px 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: solid #CA33FF 3px;
   border-radius: 15px;
-  background-color: black;
+  background-image: linear-gradient(to right, red, #CA33FF);
   filter: drop-shadow(-5px 5px 6px #333);
   text-align: center;
 }
@@ -341,11 +343,11 @@ body {
 }
 
 .email-subscribe-button {
-  background-color: black;
-  color: #78DEC7;
-  padding: 8px 45px;
+  background-color: #78DEC7;
+  color: #CA33FF;
+  padding: 3px 60px;
   font-weight: bold;
-  border: solid 2px #78DEC7;
+  border: solid 2px #CA33FF;
   margin-top: 10px;
   filter: drop-shadow(-3px 7px 7px #78DEC7);
   text-align: center;

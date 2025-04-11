@@ -116,13 +116,6 @@
   </div>
 
 
-  <div class="fart-button">
-    <audio id="sound1" src="media/fart.mp3" preload="auto"></audio>
-    <div class="text-center">
-      <button class="btn btn-danger btn-lg" onclick="document.getElementById('sound1').play();"><i class="fas fa-gas-pump"></i> Fart Button <i class="fas fa-gas-pump"></i></button>
-    </div>
-  </div>
-
   <div class="email-container">
     <p class="email-form-title">Trash Man John Site Newsletter</p>
     <p class="email-form-subtitle">
@@ -131,10 +124,17 @@
 
     <form class="application-container" id="application" method="POST" action="https://script.google.com/macros/s/AKfycbzfRsyDTgGbil8Uzp3EiWYMMWZf2meGkWBg8ocm8xQQVDtGhHex9YW8TAotArYv5-PE/exec">
       <input id="email-input" name="Email" type="email" placeholder="Email Address" required>
-      <input id="sentence-input" name="One Sentence That Describes You" type="text" placeholder="One Sentence That Describes You" required>
+      <input id="sentence-input" name="One Sentence That Describes You" type="text" placeholder="First word you can think of" required>
       <br>
       <button class="email-subscribe-button" id="submit-application" onclick="formClear();" type="submit">Join</button>
     </form>
+  </div>
+
+  <div class="fart-button">
+    <audio id="sound1" src="media/fart.mp3" preload="auto"></audio>
+    <div class="text-center">
+      <button class="btn btn-danger btn-lg" onclick="document.getElementById('sound1').play();"><i class="fas fa-gas-pump"></i> Fart Button <i class="fas fa-gas-pump"></i></button>
+    </div>
   </div>
 
 </body>
