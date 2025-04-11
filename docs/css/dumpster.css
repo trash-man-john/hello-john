@@ -394,17 +394,56 @@ input[type='checkbox']:checked + .switch {
   display: inline-block;
 } */
 
+.email-form-title {
+  color: #CA33FF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.email-form-subtitle {
+  color: white;
+  font-size: 16px;
+}
+
+.email-container {
+  margin: 40px 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid #CA33FF 3px;
+  border-radius: 15px;
+  background-color: black;
+  filter: drop-shadow(-5px 5px 6px #333);
+  text-align: center;
+}
+
+.application-container input {
+  border: solid 2px #CA33FF;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+}
+
+.submit-button {
+  margin-top: 10px;
+  color: black;
+  background-color: #78DEC7;
+  border: solid #CA33FF 2px;
+}
+
+.email-subscribe-button {
+  background-color: black;
+  color: #78DEC7;
+  padding: 8px 45px;
+  font-weight: bold;
+  border: solid 2px #78DEC7;
+  margin-top: 10px;
+  filter: drop-shadow(-3px 7px 7px #78DEC7);
+  text-align: center;
+}
 
 
 /* WEIRD SHIT SECTION BUTTON/JS */
-
-.weird-fart {
-  margin: 10px 0;
-}
-
-.love-button {
-  margin-bottom: 10px;
-}
 
 #weird-section-cover {
   display: none;

@@ -20,6 +20,13 @@ body {
     color: white;
 }
 
+.nav-link-special {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #78DEC7;
+  font-style: italic;
+}
+
 .nav-link:hover {
     color: red;
 }
@@ -80,19 +87,7 @@ body {
   margin-left: 10px;
 }
 
-.col-sm {
-  background: #CA33FF;
-  color: white;
-  border: 1px solid black;
-  margin: 9px 0;
-  padding: 12px 0;
-  border-radius: 10px;
-  font-weight: bold;
-  filter: drop-shadow(-5px 5px 6px #333);
-
-}
-
-.col-sm.balls {
+.col-sm.primary-link {
   background: red;
   color: white;
   border: 1px solid black;
@@ -102,6 +97,30 @@ body {
   border-radius: 10px;
   font-weight: bold;
   filter: drop-shadow(-3px 7px 7px #CA33FF);
+
+}
+
+.col-sm.johnplus-link {
+  background: #CA33FF;
+  color: #78DEC7;
+  border: 1px solid red;
+  margin: 9px 0;
+  padding: 12px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  filter: drop-shadow(-5px 5px 6px red);
+
+}
+
+.col-sm {
+  background: #CA33FF;
+  color: white;
+  border: 1px solid black;
+  margin: 9px 0;
+  padding: 12px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  filter: drop-shadow(-5px 5px 6px #333);
 
 }
 
@@ -284,6 +303,53 @@ body {
   background-color: #FBC7F7;
 }
 
+.email-form-title {
+  color: #CA33FF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.email-form-subtitle {
+  color: white;
+  font-size: 16px;
+}
+
+.email-container {
+  margin: 40px 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid #CA33FF 3px;
+  border-radius: 15px;
+  background-color: black;
+  filter: drop-shadow(-5px 5px 6px #333);
+  text-align: center;
+}
+
+.application-container input {
+  border: solid 2px #CA33FF;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+}
+
+.submit-button {
+  margin-top: 10px;
+  color: black;
+  background-color: #78DEC7;
+  border: solid #CA33FF 2px;
+}
+
+.email-subscribe-button {
+  background-color: black;
+  color: #78DEC7;
+  padding: 8px 45px;
+  font-weight: bold;
+  border: solid 2px #78DEC7;
+  margin-top: 10px;
+  filter: drop-shadow(-3px 7px 7px #78DEC7);
+  text-align: center;
+}
 
 @media (max-width: 575.98px) {
 

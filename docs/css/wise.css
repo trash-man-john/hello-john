@@ -27,6 +27,13 @@ body {
     color: white;
 }
 
+.nav-link-special {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #78DEC7;
+  font-style: italic;
+}
+
 .nav-link:hover {
     color: red;
 }
