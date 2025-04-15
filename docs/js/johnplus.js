@@ -4,6 +4,9 @@ const auth = firebase.auth();
 const loginForm = document.getElementById('login-form');
 const signupForm = document.getElementById('signup-form');
 const status = document.getElementById('auth-status');
+const loginWrapper = document.querySelector(".login-wrapper");
+const signupWrapper = document.querySelector(".signup-wrapper");
+const toggleBtn = document.getElementById("toggle-button");
 
 loginForm.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -24,6 +27,12 @@ signupForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const email = document.getElementById('signup-email').value;
   const password = document.getElementById('signup-password').value;
+  const confirmPassword = document.getElementById('signup-password-confirm').value;
+
+  if (password !== confirmPassword) {
+  status.textContent = "❌ Passwords do not match.";
+  return;
+}
 
   auth.createUserWithEmailAndPassword(email, password)
     .then((cred) => {
@@ -35,10 +44,22 @@ signupForm.addEventListener('submit', (e) => {
     });
 });
 
-function toggleSignup(show) {
-  signupForm.style.display = show ? 'block' : 'none';
-  loginForm.style.display = show ? 'none' : 'block';
-}
+toggleBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const isShowingSignup = signupForm.style.display === "block";
+
+  if (isShowingSignup) {
+    signupForm.style.display = "none";
+    loginForm.style.display = "block";
+    toggleBtn.textContent = "No account? Sign up";
+  } else {
+    signupForm.style.display = "block";
+    loginForm.style.display = "none";
+    toggleBtn.textContent = "Back to Login";
+  }
+});
+
 
 auth.onAuthStateChanged(user => {
   if (user) {
