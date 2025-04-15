@@ -2,66 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Restricted Area</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Trash Man John</title>
 
-  <!-- Firebase SDKs -->
-  <!-- <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script> -->
-<script src="johnplus.js"></script>
   <style>
-    body {
-      font-family: sans-serif;
-      background-color: #111;
-      color: #eee;
-      padding: 2rem;
-    }
-    input, button {
-      display: block;
-      margin: 0.5rem 0;
-      padding: 0.5rem;
-      font-size: 1rem;
-      width: 100%;
-      max-width: 300px;
-    }
-    #protected-content {
-      display: none;
-    }
-    #error-message {
-      color: red;
-      margin-top: 1rem;
-    }
-    .toggle-mode {
-      cursor: pointer;
-      color: #0af;
-      text-decoration: underline;
-      margin-top: 1rem;
-    }
+    body { font-family: sans-serif; max-width: 400px; margin: 3rem auto; }
+    input, button { width: 100%; padding: 0.75rem; margin-top: 0.5rem; }
+    .status { margin-top: 1rem; }
   </style>
 </head>
 <body>
 
-  <div id="auth-container">
-    <h2 id="form-title">Login</h2>
-    <input type="email" id="email" placeholder="Email">
-    <input type="password" id="password" placeholder="Password">
-    <button id="auth-button" onclick="handleAuth()">Login</button>
-    <p class="toggle-mode" onclick="toggleMode()">Don't have an account? Sign up</p>
-    <p id="error-message"></p>
-  </div>
+  <h2>Login to Trash Man John+</h2>
+  <form id="login-form">
+    <input type="email" id="login-email" placeholder="Email" required />
+    <input type="password" id="login-password" placeholder="Password" required />
+    <button type="submit">Log In</button>
+  </form>
 
-  <div id="protected-content">
-    <h1>Welcome to the Secret Lair</h1>
-    <p>You’re now behind the digital velvet rope.</p>
-    <button onclick="logout()">Logout</button>
-  </div>
+  <p>Don’t have an account? <a href="#" onclick="toggleSignup(true)">Sign up</a></p>
 
+  <form id="signup-form" style="display:none;">
+    <input type="email" id="signup-email" placeholder="Email" required />
+    <input type="password" id="signup-password" placeholder="Password" required />
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <div class="status" id="auth-status"></div>
   <script type="module">
   // Import the functions you need from the SDKs you need
-  import {  } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js";
-  // import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js";
-  // import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-  //  Add SDKs for Firebase products that you want to use
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
   // Your web app's Firebase configuration
@@ -77,9 +48,9 @@
   };
 
   // Initialize Firebase
-  // const app = initializeApp(firebaseConfig);
-  // const analytics = getAnalytics(app);
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
 </script>
-
+  <script src="./js/johnplus.js"></script>
 </body>
 </html>

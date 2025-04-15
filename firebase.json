@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "docs",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      { "source": "/dumpster", "destination": "/dumpster.html" },
+      { "source": "/wise", "destination": "/wise.html" },
+      { "source": "/johnplus", "destination": "/johnplus.html" },
+      { "source": "/johnplus-lp", "destination": "/johnplus-lp.html" },
+      { "source": "/johnsuspension", "destination": "/johnsuspension.html" },
+      { "source": "/products/shower-mat", "destination": "/products/shower-mat.html" },
+      { "source": "/frogontopofit", "destination": "/frogontopofit.html" },
+      { "source": "/subscribed", "destination": "/subscribed.html" },
+      { "source": "/sheblankonmyblank", "destination": "/sheblankonmyblank.html" }
+      // Add more as needed
+    ]
+  }
+}
