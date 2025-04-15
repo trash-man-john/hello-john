@@ -425,6 +425,15 @@ body {
   text-align: center;
 }
 
+.back-to-hp-btn {
+  color: #CA33FF !important;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding: 0 !important;
+}
+
 @media (max-width: 575.98px) {
 
     .description {

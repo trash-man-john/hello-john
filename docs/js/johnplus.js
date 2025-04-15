@@ -47,16 +47,16 @@ signupForm.addEventListener('submit', (e) => {
 toggleBtn.addEventListener("click", function (e) {
   e.preventDefault();
 
-  const isShowingSignup = signupForm.style.display === "block";
+  const isShowingLogin = loginForm.style.display === "block";
 
-  if (isShowingSignup) {
-    signupForm.style.display = "none";
-    loginForm.style.display = "block";
-    toggleBtn.textContent = "No account? Sign up";
-  } else {
-    signupForm.style.display = "block";
+  if (isShowingLogin) {
     loginForm.style.display = "none";
-    toggleBtn.textContent = "Back to Login";
+    signupForm.style.display = "block";
+    toggleBtn.textContent = "Already have an account? Log in";
+  } else {
+    loginForm.style.display = "block";
+    signupForm.style.display = "none";
+    toggleBtn.textContent = "No account? Sign up";
   }
 });
 
