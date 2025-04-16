@@ -64,6 +64,8 @@ $(document).ready(function() {
   });
 });
 
+
+
 window.addEventListener("load", function() {
   const form = document.getElementById('application');
   form.addEventListener("submit", function(e) {

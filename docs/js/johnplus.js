@@ -17,6 +17,7 @@ loginForm.addEventListener('submit', (e) => {
     .then((cred) => {
       status.textContent = `✅ Logged in as ${cred.user.email}`;
       heap.identify(cred.user.uid);
+      heap.addUserProperties({ email: cred.user.email });
     })
     .catch((err) => {
       status.textContent = `❌ ${err.message}`;
@@ -38,6 +39,7 @@ signupForm.addEventListener('submit', (e) => {
     .then((cred) => {
       status.textContent = `✅ Signed up as ${cred.user.email}`;
       heap.identify(cred.user.uid);
+      heap.addUserProperties({ email: email });
     })
     .catch((err) => {
       status.textContent = `❌ ${err.message}`;
@@ -52,7 +54,7 @@ toggleBtn.addEventListener("click", function (e) {
   if (isShowingLogin) {
     loginForm.style.display = "none";
     signupForm.style.display = "block";
-    toggleBtn.textContent = "Already have an account? Log in";
+    toggleBtn.textContent = "Have an account? Log In";
   } else {
     loginForm.style.display = "block";
     signupForm.style.display = "none";
